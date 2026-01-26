@@ -1,0 +1,13 @@
+# PostgreSQL Connection Details
+# ==============================
+# These credentials are used by the Spark Streaming job
+# to connect to the PostgreSQL database.
+
+host=postgres
+port=5432
+database=ecommerce_events
+user=postgres
+password=Amalitech.org
+
+# JDBC URL format (for reference):
+# jdbc:postgresql://postgres:5432/ecommerce_events
