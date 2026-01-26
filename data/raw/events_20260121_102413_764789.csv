@@ -1,0 +1,11 @@
+event_id,user_id,product_id,product_name,category,price,event_type,timestamp
+fb1aead6-7199-4c99-ad55-cb2b8820b91f,user_374b0676,prod_91dda8e0,Coffee Maker,Home & Garden,126.41,view,2026-01-21 10:24:13
+ee871e98-9bc2-4fdf-a689-e2c5fabc9ab4,user_4b013c52,prod_83f1a868,Wireless Headphones,Electronics,144.14,add_to_cart,2026-01-21 10:24:13
+ecd12bde-213b-41d7-80bc-89319a5de811,user_e9f9dbd9,prod_72fd4937,Wall Clock,Home & Garden,33.83,view,2026-01-21 10:24:13
+e116f17a-0396-4fb8-924e-4a5a751093d4,user_c28ad0ac,prod_d71a2d74,Tennis Racket,Sports,94.81,view,2026-01-21 10:24:13
+8447e505-f05c-48ee-b25d-f52cf15eef70,user_74e2e68e,prod_d4ec491a,Dumbbell Set,Sports,97.96,add_to_cart,2026-01-21 10:24:13
+d956b4f8-211b-49c6-abc0-32ba578a8ace,user_ad79eece,prod_06819f38,Throw Blanket,Home & Garden,70.19,view,2026-01-21 10:24:13
+00933043-b38b-42fe-b69d-c997fd307a31,user_9d2bf117,prod_7624cbd0,Wool Sweater,Clothing,62.85,add_to_cart,2026-01-21 10:24:13
+eada25ec-bbe4-4f09-8a96-b258600e88cb,user_fb4e3fac,prod_107f1013,Plant Pot Set,Home & Garden,33.04,view,2026-01-21 10:24:13
+821362ad-8a2c-4647-94ae-970048303691,user_a7f368a2,prod_dcf14895,Tennis Racket,Sports,96.86,purchase,2026-01-21 10:24:13
+131a61b3-1589-4eb8-9540-1c655a74e516,user_2bee2828,prod_6c64bb0e,Wall Clock,Home & Garden,34.67,add_to_cart,2026-01-21 10:24:13

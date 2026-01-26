@@ -1,0 +1,11 @@
+event_id,user_id,product_id,product_name,category,price,event_type,timestamp
+033520f6-78ca-4f3e-84e0-67112ec22108,user_16d5e972,prod_7e5cbade,Fitness Tracker,Sports,81.25,add_to_cart,2026-01-21 10:24:10
+9b7f6864-365b-449c-a93e-4d1310e4f721,user_05626145,prod_6cc3b26c,USB-C Cable,Electronics,24.48,view,2026-01-21 10:24:10
+453f83bc-4113-4c44-8b79-9e3894a68065,user_84bf561d,prod_2ba344bc,Denim Jeans,Clothing,51.9,add_to_cart,2026-01-21 10:24:10
+3c2ecc09-4a6b-4953-9412-d30ddccd6f51,user_d353ca8f,prod_1f079915,Laptop Stand,Electronics,68.25,view,2026-01-21 10:24:10
+bf707bbb-078d-4d21-af06-3dd2b1ed6145,user_28e94572,prod_76e6ae4d,Throw Blanket,Home & Garden,68.42,add_to_cart,2026-01-21 10:24:10
+e25e7095-32ce-489f-b95c-50cd53279fb8,user_50daa978,prod_f8884924,Programming Python,Books,31.81,view,2026-01-21 10:24:10
+e9a77a99-d1c4-4fd3-a6b5-f6deb4c8aa21,user_42c88c5f,prod_371ba8a1,LED Desk Lamp,Home & Garden,46.83,view,2026-01-21 10:24:10
+c0c110d1-af90-45bb-b2fa-543cd2f346a0,user_57ba488a,prod_36b2f81b,Wall Clock,Home & Garden,26.42,view,2026-01-21 10:24:10
+6adf18a5-d73f-4193-9b54-13b0c883b15b,user_52506c6d,prod_09f5c737,Baseball Cap,Clothing,16.79,view,2026-01-21 10:24:10
+2be7924e-f1fd-4b7e-b694-795cab7cb2c0,user_ac0a93eb,prod_37a7ca1e,Denim Jeans,Clothing,81.9,view,2026-01-21 10:24:10

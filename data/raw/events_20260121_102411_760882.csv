@@ -1,0 +1,11 @@
+event_id,user_id,product_id,product_name,category,price,event_type,timestamp
+d8fb18e4-3a7f-4af8-8477-fd983b2a7ae1,user_bdeb2e7a,prod_197d8efb,Laptop Stand,Electronics,49.71,view,2026-01-21 10:24:11
+d2baae21-cba3-4248-8771-0706d5332206,user_3345f3c3,prod_7a7937e9,Winter Jacket,Clothing,88.96,add_to_cart,2026-01-21 10:24:11
+c5b471c0-10ca-40b9-b336-af7021ddfb19,user_45160d0b,prod_fd42fedf,Wool Sweater,Clothing,62.11,purchase,2026-01-21 10:24:11
+b91faf49-2426-4a2c-ad6f-65bcaac68665,user_a931500a,prod_8876b46e,Smartphone Case,Electronics,17.16,view,2026-01-21 10:24:11
+3c465bee-cc03-4dd2-bb6f-4fd63418ee0c,user_4b085f09,prod_005f4394,Basketball,Sports,28.66,add_to_cart,2026-01-21 10:24:11
+fc53c937-940b-41ca-b142-b71cd45793c6,user_dac78818,prod_c0fb5984,Baseball Cap,Clothing,14.03,view,2026-01-21 10:24:11
+f3aa2ba0-c047-4126-8161-e0b381ed1ef5,user_77ab159e,prod_b918584a,LED Desk Lamp,Home & Garden,47.85,view,2026-01-21 10:24:11
+d28f33a7-b2b1-4a9c-b160-e9b1698cc871,user_2cba77fb,prod_ec5ba204,Tennis Racket,Sports,120.92,add_to_cart,2026-01-21 10:24:11
+9b17a2b7-0a61-4773-bd48-0eaf4bad3902,user_709b2d9a,prod_71a03f12,Cooking Recipe Book,Books,24.93,view,2026-01-21 10:24:11
+da1dd4c4-fa00-40b8-85cf-7984628f8529,user_fe2ee75a,prod_4ed0537a,USB-C Cable,Electronics,22.98,purchase,2026-01-21 10:24:11

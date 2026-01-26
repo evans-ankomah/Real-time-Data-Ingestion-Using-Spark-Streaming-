@@ -1,0 +1,11 @@
+event_id,user_id,product_id,product_name,category,price,event_type,timestamp
+97ca4125-17ce-439d-af37-679e8384c365,user_730ebb5c,prod_9db9cad7,Wool Sweater,Clothing,56.72,view,2026-01-21 10:24:15
+1c06daad-875a-4d5e-b5b9-f1cc385d51bd,user_911e4794,prod_afde7aba,Cotton T-Shirt,Clothing,15.27,add_to_cart,2026-01-21 10:24:15
+4627f3ac-7fc6-4346-8916-0ed5e6c9ab48,user_5e580afc,prod_863df60c,Mystery Novel,Books,18.04,view,2026-01-21 10:24:15
+064fa99c-a8dc-439b-9273-e25201539b35,user_204f563b,prod_4b50fb33,Cooking Recipe Book,Books,20.27,view,2026-01-21 10:24:15
+e495ced2-a5f3-49e6-907d-c00ebec1219b,user_e6be015b,prod_aec8cf52,Bluetooth Speaker,Electronics,103.92,view,2026-01-21 10:24:15
+f6d37bcb-9be9-44a2-aa8b-ff100c16f0af,user_9ecf1b4f,prod_064487ca,Tennis Racket,Sports,125.4,view,2026-01-21 10:24:15
+8125e684-06a5-445e-ab09-fd3b8c110301,user_ebf688f6,prod_a280ad2f,USB-C Cable,Electronics,18.05,view,2026-01-21 10:24:15
+52aecd19-ca10-4d99-b171-4a529b0a98c5,user_94848807,prod_194dce38,Coffee Maker,Home & Garden,79.24,view,2026-01-21 10:24:15
+a9806def-21fe-49ec-a6a6-c4814a257fab,user_25891402,prod_6579cc5a,Wall Clock,Home & Garden,36.83,add_to_cart,2026-01-21 10:24:15
+e6237cc6-c96a-478e-b4d2-c4f9c5fb96e8,user_242e8452,prod_39add3bc,Laptop Stand,Electronics,29.12,add_to_cart,2026-01-21 10:24:15
