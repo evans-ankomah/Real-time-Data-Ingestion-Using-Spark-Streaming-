@@ -2,7 +2,7 @@
 
 This project implements a robust **real-time data ingestion pipeline** that simulates an e-commerce platform's user activity. It generates high-volume fake events, streams them using **Apache Spark Structured Streaming**, and persistently stores processed data in a **PostgreSQL** database.
 
-## 🏗️ System Architecture
+## System Architecture
 
 The pipeline consists of three main stages: Data Generation, Stream Processing, and Persistence.
 
@@ -27,7 +27,7 @@ graph LR
     end
 ```
 
-## ✨ Features
+## Features
 
 - **Real-Time Processing**: Ingests and processes user events with low latency (~10s).
 - **Fault Tolerance**:
@@ -38,7 +38,7 @@ graph LR
   - **Schema Validation**: Enforces strict data types for downstream consistency.
 - **Robust Storage**: Uses PostgreSQL with optimized indexes for analytical queries.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Component | Technology | Version | Description |
 |-----------|------------|---------|-------------|
@@ -47,7 +47,7 @@ graph LR
 | **Containerization** | Docker | 24+ | Isolates services (Spark, Postgres) |
 | **Language** | Python | 3.9+ | Data generation and Spark job logic |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -84,7 +84,7 @@ graph LR
     spark-submit --packages org.postgresql:postgresql:42.7.1 src/spark_streaming_to_postgres.py
     ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 .
@@ -103,7 +103,7 @@ graph LR
 └── Dockerfile              # Custom image definitions
 ```
 
-## 📊 Database Schema
+## Database Schema
 
 The `user_events` table is designed for high-throughput writes and analytical reads.
 
@@ -118,7 +118,7 @@ The `user_events` table is designed for high-throughput writes and analytical re
 | `event_timestamp` | TIMESTAMP | Time of occurrence |
 | `created_at` | TIMESTAMP | Ingestion time |
 
-## 🔍 Monitoring
+## Monitoring
 
 - **Spark UI**: Access at `http://localhost:4040` (when running locally) to view active streams and processing rates.
 - **Postgres Data**:
@@ -133,6 +133,6 @@ The `user_events` table is designed for high-throughput writes and analytical re
     SELECT * FROM user_events ORDER BY event_timestamp DESC LIMIT 5;
     ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements.

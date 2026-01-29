@@ -63,6 +63,7 @@ FROM user_events;
 **Measurement Method**:
 Latency = Time record appears in DB - Event timestamp
 
+
 **Query to measure**:
 ```sql
 SELECT 

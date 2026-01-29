@@ -34,7 +34,7 @@ Before running tests, ensure:
 
 **Actual Result**: _________________
 
-**Status**: ☐ Pass ☐ Fail
+**Status** : ☐ Pass ☐ Fail
 
 ---
 
