@@ -6,26 +6,7 @@ This project implements a robust **real-time data ingestion pipeline** that simu
 
 The pipeline consists of three main stages: Data Generation, Stream Processing, and Persistence.
 
-```mermaid
-graph LR
-    subgraph Docker Environment
-        direction LR
-        Generator[("Data Generator<br/>(Python)")] 
-        RawData[/"data/raw/<br/>(CSV Files)"/]
-        Spark[("Spark Streaming<br/>(PySpark)")] 
-        Postgres[("PostgreSQL<br/>(Time-Series Data)")]
-        
-        Generator -->|Generates Events| RawData
-        RawData -->|Stream Source| Spark
-        Spark -->|3. Transform & Clean| Spark
-        Spark -->|4. Store Results| Postgres
-        
-        style Generator fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-        style RawData fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-        style Spark fill:#ffe0b2,stroke:#f57c00,stroke-width:2px
-        style Postgres fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
-    end
-```
+![System Architecture](docs/system_architecture.png)
 
 ## Features
 
