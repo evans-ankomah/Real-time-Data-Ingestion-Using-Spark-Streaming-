@@ -96,14 +96,49 @@ CATEGORIES = {
 # Setup Logging
 # ============================================================
 
+def get_log_directory() -> str:
+    """Get the log directory path, creating it if needed."""
+    if os.path.exists('/app/logs'):
+        log_dir = '/app/logs'
+    else:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        log_dir = os.path.join(script_dir, '..', 'logs')
+        log_dir = os.path.abspath(log_dir)
+    os.makedirs(log_dir, exist_ok=True)
+    return log_dir
+
 def setup_logging() -> logging.Logger:
-    """Configure logging for the data generator."""
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s | %(levelname)-8s | %(message)s',
+    """Configure logging for the data generator with file output."""
+    log_dir = get_log_directory()
+    log_file = os.path.join(log_dir, 'generator_metrics.log')
+    
+    # Create logger
+    logger = logging.getLogger('DataGenerator')
+    logger.setLevel(logging.INFO)
+    
+    # Console handler
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)
+    console_format = logging.Formatter(
+        '%(asctime)s | %(levelname)-8s | %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S'
     )
-    return logging.getLogger('DataGenerator')
+    console_handler.setFormatter(console_format)
+    
+    # File handler with detailed format
+    file_handler = logging.FileHandler(log_file, mode='a', encoding='utf-8')
+    file_handler.setLevel(logging.INFO)
+    file_format = logging.Formatter(
+        '%(asctime)s | %(levelname)-8s | %(name)s | %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+    file_handler.setFormatter(file_format)
+    
+    # Add handlers
+    logger.addHandler(console_handler)
+    logger.addHandler(file_handler)
+    
+    return logger
 
 logger = setup_logging()
 
@@ -352,14 +387,33 @@ def run_generator(
                 filepath = write_events_to_csv(events, output_dir)
                 total_events += len(events)
                 total_files += 1
+                batch_time = time.time() - batch_start
                 
-                # Log progress every file
+                # Calculate batch statistics
+                event_types = {}
+                total_price = 0
+                for evt in events:
+                    event_types[evt['event_type']] = event_types.get(evt['event_type'], 0) + 1
+                    total_price += evt['price']
+                avg_price = total_price / len(events)
+                
+                # Log progress every file with detailed metrics
                 elapsed = time.time() - start_time
                 rate = total_events / elapsed if elapsed > 0 else 0
+                
+                # Main log line
                 logger.info(
                     f"File #{total_files}: {os.path.basename(filepath)} | "
                     f"Events: {len(events)} | Total: {total_events} | "
                     f"Rate: {rate:.1f} evt/s"
+                )
+                
+                # Detailed metrics log line
+                type_dist = ", ".join([f"{k}:{v}" for k, v in event_types.items()])
+                logger.info(
+                    f"  └─ Batch #{total_files} Metrics: "
+                    f"batch_time={batch_time:.3f}s | types=[{type_dist}] | "
+                    f"avg_price=${avg_price:.2f} | elapsed={elapsed:.1f}s"
                 )
     
     except Exception as e:

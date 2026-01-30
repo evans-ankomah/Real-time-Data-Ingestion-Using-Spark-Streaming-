@@ -1,0 +1,11 @@
+v1
+{"path":"file:///app/data/raw/events_20260130_073140_766625.csv","timestamp":1769758300800,"batchId":42}
+{"path":"file:///app/data/raw/events_20260130_073141_768634.csv","timestamp":1769758301806,"batchId":42}
+{"path":"file:///app/data/raw/events_20260130_073142_768607.csv","timestamp":1769758302813,"batchId":42}
+{"path":"file:///app/data/raw/events_20260130_073143_768756.csv","timestamp":1769758303789,"batchId":42}
+{"path":"file:///app/data/raw/events_20260130_073144_770600.csv","timestamp":1769758304787,"batchId":42}
+{"path":"file:///app/data/raw/events_20260130_073145_771647.csv","timestamp":1769758305784,"batchId":42}
+{"path":"file:///app/data/raw/events_20260130_073146_773043.csv","timestamp":1769758306781,"batchId":42}
+{"path":"file:///app/data/raw/events_20260130_073147_775219.csv","timestamp":1769758307776,"batchId":42}
+{"path":"file:///app/data/raw/events_20260130_073148_776497.csv","timestamp":1769758308771,"batchId":42}
+{"path":"file:///app/data/raw/events_20260130_073149_778723.csv","timestamp":1769758309768,"batchId":42}

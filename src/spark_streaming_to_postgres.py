@@ -75,14 +75,52 @@ class Config:
 # Setup Logging
 # ============================================================
 
+def get_log_directory() -> str:
+    """Get the log directory path, creating it if needed."""
+    if os.path.exists('/app/logs'):
+        log_dir = '/app/logs'
+    else:
+        base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        log_dir = os.path.join(base_path, 'logs')
+    os.makedirs(log_dir, exist_ok=True)
+    return log_dir
+
 def setup_logging() -> logging.Logger:
-    """Configure logging for the streaming job."""
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s | %(levelname)-8s | %(message)s',
+    """Configure logging for the streaming job with file output."""
+    log_dir = get_log_directory()
+    log_file = os.path.join(log_dir, 'streaming_metrics.log')
+    
+    # Create logger
+    logger = logging.getLogger('SparkStreaming')
+    logger.setLevel(logging.INFO)
+    
+    # Avoid duplicate handlers if called multiple times
+    if logger.handlers:
+        return logger
+    
+    # Console handler
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)
+    console_format = logging.Formatter(
+        '%(asctime)s | %(levelname)-8s | %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S'
     )
-    return logging.getLogger('SparkStreaming')
+    console_handler.setFormatter(console_format)
+    
+    # File handler with detailed format
+    file_handler = logging.FileHandler(log_file, mode='a', encoding='utf-8')
+    file_handler.setLevel(logging.INFO)
+    file_format = logging.Formatter(
+        '%(asctime)s | %(levelname)-8s | %(name)s | %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+    file_handler.setFormatter(file_format)
+    
+    # Add handlers
+    logger.addHandler(console_handler)
+    logger.addHandler(file_handler)
+    
+    return logger
 
 logger = setup_logging()
 
@@ -230,6 +268,8 @@ def write_to_postgres_with_retry(batch_df: DataFrame, batch_id: int):
         batch_df: DataFrame containing the batch data
         batch_id: Unique identifier for this batch
     """
+    batch_start_time = time.time()
+    
     if batch_df.isEmpty():
         logger.info(f"Batch {batch_id}: Empty batch, skipping.")
         return
@@ -238,9 +278,11 @@ def write_to_postgres_with_retry(batch_df: DataFrame, batch_id: int):
     logger.info(f"Batch {batch_id}: Processing {record_count} records...")
     
     # Clean and validate
+    validation_start = time.time()
     valid_df, invalid_df = clean_and_validate_data(batch_df)
     valid_count = valid_df.count()
     invalid_count = invalid_df.count()
+    validation_time = time.time() - validation_start
     
     logger.info(f"Batch {batch_id}: Valid: {valid_count}, Invalid: {invalid_count}")
     
@@ -253,16 +295,18 @@ def write_to_postgres_with_retry(batch_df: DataFrame, batch_id: int):
         return
     
     # Deduplicate and prepare
+    dedup_start = time.time()
     deduped_df = deduplicate_events(valid_df)
     final_df = prepare_for_postgres(deduped_df)
     final_count = final_df.count()
+    dedup_time = time.time() - dedup_start
     
     logger.info(f"Batch {batch_id}: After dedup: {final_count} records")
     
     # Write to PostgreSQL with retry
     for attempt in range(1, Config.MAX_RETRIES + 1):
         try:
-            start_time = time.time()
+            write_start = time.time()
             
             # Use 'append' mode - duplicates are handled by DB constraint
             final_df.write \
@@ -276,10 +320,21 @@ def write_to_postgres_with_retry(batch_df: DataFrame, batch_id: int):
                 .mode("append") \
                 .save()
             
-            elapsed = time.time() - start_time
+            write_time = time.time() - write_start
+            total_batch_time = time.time() - batch_start_time
+            throughput = final_count / total_batch_time if total_batch_time > 0 else 0
+            
             logger.info(
                 f"Batch {batch_id}: Successfully wrote {final_count} records "
-                f"to PostgreSQL in {elapsed:.2f}s"
+                f"to PostgreSQL in {write_time:.2f}s"
+            )
+            
+            # Detailed metrics log line
+            logger.info(
+                f"  └─ Batch #{batch_id} Metrics: "
+                f"total_time={total_batch_time:.3f}s | validation={validation_time:.3f}s | "
+                f"dedup={dedup_time:.3f}s | write={write_time:.3f}s | "
+                f"throughput={throughput:.1f} rec/s | valid_rate={valid_count}/{record_count}"
             )
             return  # Success, exit retry loop
             

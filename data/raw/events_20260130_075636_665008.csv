@@ -1,0 +1,11 @@
+event_id,user_id,product_id,product_name,category,price,event_type,timestamp
+70c0f888-8749-4d6c-a882-bfd776969548,user_eb3e4a08,prod_d66b9bb7,Mystery Novel,Books,10.94,add_to_cart,2026-01-30 07:56:36
+d944caf6-6e73-4f1e-b215-e70c42e1b054,user_4d6b4c42,prod_1c243690,Laptop Stand,Electronics,48.03,view,2026-01-30 07:56:36
+c5b20780-05f5-48ee-9d53-ee9d4d73fdda,user_05f3a147,prod_c676e6b8,Plant Pot Set,Home & Garden,20.26,add_to_cart,2026-01-30 07:56:36
+cfbede86-1d82-4019-bdaf-98ca6a6c4090,user_cb663eac,prod_7395c76c,Portable Charger,Electronics,62.66,add_to_cart,2026-01-30 07:56:36
+fc6bb8e3-88ed-47a7-b843-a41c0eae8eda,user_12b0d22a,prod_c389046e,Dumbbell Set,Sports,128.22,view,2026-01-30 07:56:36
+cee89520-8888-4537-bcc8-d67186d49d91,user_feceb3fb,prod_307ae168,Fitness Tracker,Sports,92.73,view,2026-01-30 07:56:36
+af066fe1-0ce6-481a-b981-92af5700ecc7,user_0a9baa45,prod_36d638fe,Plant Pot Set,Home & Garden,35.59,purchase,2026-01-30 07:56:36
+31823535-1ed6-47ff-b3dc-dd5a045b58b7,user_3ed43be1,prod_c72e8bda,Fitness Tracker,Sports,108.58,view,2026-01-30 07:56:36
+80b61252-4551-446d-8146-c330b937f10d,user_af46feee,prod_c0f31282,LED Desk Lamp,Home & Garden,35.22,add_to_cart,2026-01-30 07:56:36
+986a2d50-5af8-4b28-90bd-903f2cebbae5,user_b1958d85,prod_6ea46a64,LED Desk Lamp,Home & Garden,55.85,add_to_cart,2026-01-30 07:56:36

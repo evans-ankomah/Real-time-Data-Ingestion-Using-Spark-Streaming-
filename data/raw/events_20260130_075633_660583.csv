@@ -1,0 +1,11 @@
+event_id,user_id,product_id,product_name,category,price,event_type,timestamp
+529df96f-4a79-4dde-a70c-2ec6c37fa525,user_2e494724,prod_88c17f2e,Mystery Novel,Books,11.15,add_to_cart,2026-01-30 07:56:33
+9af69543-7f26-4b17-ae75-efa0718069ee,user_2478c909,prod_b9d5bf47,Tennis Racket,Sports,63.03,view,2026-01-30 07:56:33
+cb3f1df5-a1ca-4675-ae19-6cffc82925f3,user_1ba5c063,prod_8cb7ed12,Wool Sweater,Clothing,64.25,add_to_cart,2026-01-30 07:56:33
+c8c96fac-773c-43d6-b7fc-27379b9c4188,user_b30ef251,prod_803bf71a,Denim Jeans,Clothing,53.59,view,2026-01-30 07:56:33
+e277a001-61a7-4dd9-a796-7a0be78faae9,user_8dc3e47c,prod_d47b5b65,Cotton T-Shirt,Clothing,15.18,view,2026-01-30 07:56:33
+4bc114e3-8176-4f7d-b56b-7eb0c38e7cfe,user_c60de15d,prod_b115c240,Smartphone Case,Electronics,23.38,add_to_cart,2026-01-30 07:56:33
+64c2817d-abff-4730-8f6a-f4d719971da7,user_4f02444c,prod_d97f4895,Programming Python,Books,35.24,view,2026-01-30 07:56:33
+17d4d5a8-041b-4c5f-ac0c-449457c90c48,user_c8592e8b,prod_bce47bea,Plant Pot Set,Home & Garden,37.37,view,2026-01-30 07:56:33
+7f1e8b8f-20c6-45e9-bad9-031186b0e4a7,user_12a6b8c8,prod_87f5c722,Wool Sweater,Clothing,63.24,view,2026-01-30 07:56:33
+33d7d707-46b0-4337-a848-5da2b58edd37,user_89a5b80f,prod_4151eeca,Baseball Cap,Clothing,20.51,view,2026-01-30 07:56:33

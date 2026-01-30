@@ -1,0 +1,11 @@
+event_id,user_id,product_id,product_name,category,price,event_type,timestamp
+2db11059-ef84-4c64-9858-7b754c47bc3a,user_1d59bb90,prod_97a3a663,Wool Sweater,Clothing,98.99,purchase,2026-01-30 07:56:37
+ca0f4229-c3a2-43a4-9c3e-2b2b9e145724,user_886f6cbf,prod_8ce493ae,Wool Sweater,Clothing,57.62,add_to_cart,2026-01-30 07:56:37
+b06a2232-9b08-48f2-b874-57c99bc159bd,user_e29eeb6f,prod_80ed143e,Winter Jacket,Clothing,191.63,view,2026-01-30 07:56:37
+83abd5fc-11d5-4507-b11a-57b775d79dcc,user_6a5da7e4,prod_22517ff2,Fitness Tracker,Sports,145.96,view,2026-01-30 07:56:37
+931ec26c-b19f-4148-882e-4c1fdc3f212d,user_eee3cb29,prod_46d59ea1,Wool Sweater,Clothing,70.94,view,2026-01-30 07:56:37
+0d73ad63-d09e-41ef-95af-ee6ab1db69db,user_d4f2293e,prod_3c6b04c3,Plant Pot Set,Home & Garden,45.85,add_to_cart,2026-01-30 07:56:37
+7767920d-1e83-4e7d-89f2-2731032c7d7a,user_1902fddf,prod_9d8be525,Coffee Maker,Home & Garden,85.45,add_to_cart,2026-01-30 07:56:37
+8ec35281-8a83-48bd-b85f-648ad7a55ced,user_ba9fd4e5,prod_f61d9f30,Plant Pot Set,Home & Garden,31.88,add_to_cart,2026-01-30 07:56:37
+cf47d222-8955-47d2-bb88-e8fe1bf32346,user_eb523762,prod_13caff5e,Coffee Maker,Home & Garden,129.9,view,2026-01-30 07:56:37
+f22e89f2-ea11-4a18-9eeb-78e183fb667d,user_55ecfcdd,prod_97b14f7f,Fitness Tracker,Sports,63.78,view,2026-01-30 07:56:37

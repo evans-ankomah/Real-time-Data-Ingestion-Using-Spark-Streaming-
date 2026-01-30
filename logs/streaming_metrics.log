@@ -1,0 +1,37 @@
+2026-01-30 07:55:36 | INFO     | SparkStreaming | Initializing Spark Streaming to PostgreSQL pipeline...
+2026-01-30 07:55:36 | INFO     | SparkStreaming | Creating Spark session...
+2026-01-30 07:55:41 | INFO     | SparkStreaming | Spark session created. Version: 3.5.0
+2026-01-30 07:55:41 | INFO     | SparkStreaming | Waiting for PostgreSQL to be available...
+2026-01-30 07:55:41 | INFO     | SparkStreaming | Testing PostgreSQL connection...
+2026-01-30 07:55:52 | INFO     | SparkStreaming | PostgreSQL connection successful!
+2026-01-30 07:55:52 | INFO     | SparkStreaming | ============================================================
+2026-01-30 07:55:52 | INFO     | SparkStreaming | Starting Spark Structured Streaming Job
+2026-01-30 07:55:52 | INFO     | SparkStreaming | ============================================================
+2026-01-30 07:55:52 | INFO     | SparkStreaming | Input path: /app/data/raw
+2026-01-30 07:55:52 | INFO     | SparkStreaming | Checkpoint path: /app/checkpoints/streaming
+2026-01-30 07:55:52 | INFO     | SparkStreaming | PostgreSQL URL: jdbc:postgresql://postgres:5432/ecommerce_events
+2026-01-30 07:55:52 | INFO     | SparkStreaming | Trigger interval: 10 seconds
+2026-01-30 07:55:52 | INFO     | SparkStreaming | ============================================================
+2026-01-30 07:55:53 | INFO     | SparkStreaming | Streaming DataFrame created. Waiting for data...
+2026-01-30 07:55:54 | INFO     | SparkStreaming | Streaming query started. ID: 3fad3bc7-5b93-4c7a-b7cb-da5ddc97ed00
+2026-01-30 07:55:54 | INFO     | SparkStreaming | Press Ctrl+C to stop the streaming job.
+2026-01-30 07:56:20 | INFO     | SparkStreaming | Batch 45: Processing 80 records...
+2026-01-30 07:56:22 | INFO     | SparkStreaming | Batch 45: Valid: 80, Invalid: 0
+2026-01-30 07:56:24 | INFO     | SparkStreaming | Batch 45: After dedup: 80 records
+2026-01-30 07:56:29 | INFO     | SparkStreaming | Batch 45: Successfully wrote 80 records to PostgreSQL in 5.59s
+2026-01-30 07:56:29 | INFO     | SparkStreaming |   └─ Batch #45 Metrics: total_time=11.341s | validation=2.053s | dedup=1.737s | write=5.586s | throughput=7.1 rec/s | valid_rate=80/80
+2026-01-30 07:56:32 | INFO     | SparkStreaming | Batch 46: Processing 100 records...
+2026-01-30 07:56:33 | INFO     | SparkStreaming | Batch 46: Valid: 100, Invalid: 0
+2026-01-30 07:56:34 | INFO     | SparkStreaming | Batch 46: After dedup: 100 records
+2026-01-30 07:56:35 | INFO     | SparkStreaming | Batch 46: Successfully wrote 100 records to PostgreSQL in 1.15s
+2026-01-30 07:56:35 | INFO     | SparkStreaming |   └─ Batch #46 Metrics: total_time=3.637s | validation=1.353s | dedup=0.683s | write=1.150s | throughput=27.5 rec/s | valid_rate=100/100
+2026-01-30 07:56:41 | INFO     | SparkStreaming | Batch 47: Processing 40 records...
+2026-01-30 07:56:42 | INFO     | SparkStreaming | Batch 47: Valid: 40, Invalid: 0
+2026-01-30 07:56:42 | INFO     | SparkStreaming | Batch 47: After dedup: 40 records
+2026-01-30 07:56:43 | INFO     | SparkStreaming | Batch 47: Successfully wrote 40 records to PostgreSQL in 0.69s
+2026-01-30 07:56:43 | INFO     | SparkStreaming |   └─ Batch #47 Metrics: total_time=2.263s | validation=0.776s | dedup=0.404s | write=0.692s | throughput=17.7 rec/s | valid_rate=40/40
+2026-01-30 07:56:52 | INFO     | SparkStreaming | Batch 48: Processing 100 records...
+2026-01-30 07:56:53 | INFO     | SparkStreaming | Batch 48: Valid: 100, Invalid: 0
+2026-01-30 07:56:54 | INFO     | SparkStreaming | Batch 48: After dedup: 100 records
+2026-01-30 07:56:55 | INFO     | SparkStreaming | Batch 48: Successfully wrote 100 records to PostgreSQL in 0.72s
+2026-01-30 07:56:55 | INFO     | SparkStreaming |   └─ Batch #48 Metrics: total_time=2.835s | validation=1.148s | dedup=0.541s | write=0.720s | throughput=35.3 rec/s | valid_rate=100/100

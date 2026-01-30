@@ -1,0 +1,11 @@
+event_id,user_id,product_id,product_name,category,price,event_type,timestamp
+6523f999-2c79-4e0c-8572-789393cf5925,user_78038db1,prod_26159199,Laptop Stand,Electronics,86.5,view,2026-01-30 07:56:38
+6e4384de-9885-411b-bb40-19e07f005316,user_b3a49d42,prod_b6b11f01,Wireless Mouse,Electronics,33.6,view,2026-01-30 07:56:38
+cc378e64-7033-4b82-a9f4-a22a63b2509e,user_f7c683dc,prod_4b376df7,Wall Clock,Home & Garden,22.06,view,2026-01-30 07:56:38
+ba7c7160-8aa1-45eb-bcf7-5fa4aaa1735e,user_128dfdab,prod_3a0f1e95,Running Shoes,Clothing,61.91,add_to_cart,2026-01-30 07:56:38
+3091f6d0-cae5-4ba9-94f5-0e8d1dd9e0eb,user_3bef7dd2,prod_0fc4e895,Basketball,Sports,26.32,add_to_cart,2026-01-30 07:56:38
+838cf946-0a46-4f98-affe-455a14ed7d1c,user_f4ca5c22,prod_15e8ad62,Laptop Stand,Electronics,51.43,add_to_cart,2026-01-30 07:56:38
+11c550c9-9a57-4325-8885-539fc195cacd,user_751c602b,prod_9d9c42ea,Data Science Handbook,Books,49.06,add_to_cart,2026-01-30 07:56:38
+474a9f92-b465-472e-975f-b245dd6b1889,user_00743f08,prod_0b115618,Data Science Handbook,Books,45.86,add_to_cart,2026-01-30 07:56:38
+f806fd2b-2475-4e8c-9a62-f5d95dc40718,user_bcf48b22,prod_4bbdf493,Wireless Headphones,Electronics,148.69,view,2026-01-30 07:56:38
+0260d9bf-1af2-4bc9-b874-0923323eae29,user_20986757,prod_bd433080,Cooking Recipe Book,Books,27.25,view,2026-01-30 07:56:38

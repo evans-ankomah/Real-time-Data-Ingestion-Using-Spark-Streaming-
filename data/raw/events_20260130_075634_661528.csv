@@ -1,0 +1,11 @@
+event_id,user_id,product_id,product_name,category,price,event_type,timestamp
+c05bd92f-7db8-4697-a833-add712768429,user_e85a71c4,prod_a6721abe,Portable Charger,Electronics,71.81,purchase,2026-01-30 07:56:34
+78659386-ba53-4bde-be8e-39566b4e1237,user_74014192,prod_53770198,Tennis Racket,Sports,116.34,view,2026-01-30 07:56:34
+27db0fab-a065-4c3d-9a56-6b9a29f421e1,user_aba45935,prod_d5026991,Wireless Mouse,Electronics,73.92,add_to_cart,2026-01-30 07:56:34
+3077665b-fd09-4225-b856-a9ca0b824dda,user_9a8ee5ab,prod_3542724f,Cotton T-Shirt,Clothing,29.15,view,2026-01-30 07:56:34
+88f4bcda-e3e4-4bf8-9f5d-e113a7bfaafb,user_8855d901,prod_3d2e27f0,Wireless Mouse,Electronics,58.48,view,2026-01-30 07:56:34
+61272ca3-4eb7-4f0b-a063-13c0ad1bff6f,user_559bd0f5,prod_e5f4171b,Webcam HD,Electronics,127.88,add_to_cart,2026-01-30 07:56:34
+f6fff7df-c183-422d-bb6a-eeb2eeed4b72,user_78bd57fc,prod_ab8b57b3,Mystery Novel,Books,17.28,view,2026-01-30 07:56:34
+8bf4ec4c-5b33-4693-a1f5-c44024313d31,user_d3c436eb,prod_9b56e94b,Mystery Novel,Books,19.61,view,2026-01-30 07:56:34
+0475b74f-926a-4f53-9d39-abf391df95f9,user_f7f48bac,prod_6284482b,Yoga Mat,Sports,27.8,purchase,2026-01-30 07:56:34
+85fa5df5-0df1-4e4d-a24a-1c69e4d0ef1c,user_5635bfc6,prod_1ce5bf49,Throw Blanket,Home & Garden,39.11,view,2026-01-30 07:56:34

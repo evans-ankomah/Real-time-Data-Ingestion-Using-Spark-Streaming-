@@ -1,0 +1,5 @@
+v1
+{"path":"file:///app/data/raw/events_20260130_073136_761832.csv","timestamp":1769758296807,"batchId":41}
+{"path":"file:///app/data/raw/events_20260130_073137_762661.csv","timestamp":1769758297805,"batchId":41}
+{"path":"file:///app/data/raw/events_20260130_073138_764411.csv","timestamp":1769758298805,"batchId":41}
+{"path":"file:///app/data/raw/events_20260130_073139_765461.csv","timestamp":1769758299801,"batchId":41}

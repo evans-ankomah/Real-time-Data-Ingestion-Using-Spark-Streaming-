@@ -1,0 +1,11 @@
+event_id,user_id,product_id,product_name,category,price,event_type,timestamp
+b166a882-b378-4856-b55c-275e0f387ec2,user_b06515c6,prod_1ef49d66,Laptop Stand,Electronics,78.5,add_to_cart,2026-01-30 07:56:32
+69d4e942-6695-4e47-a83e-d93f92f398fa,user_c1c864a2,prod_08945843,Fitness Tracker,Sports,56.68,view,2026-01-30 07:56:32
+8df9ef5e-ae40-41c7-b2ef-e09b1b19afee,user_1e781b8e,prod_17124153,Coffee Maker,Home & Garden,74.6,view,2026-01-30 07:56:32
+84753b3a-8a81-44b7-a653-416361098858,user_07e99537,prod_365e8ac1,Cooking Recipe Book,Books,23.63,add_to_cart,2026-01-30 07:56:32
+311e0ca6-9b65-41d4-8a88-33c7bef26131,user_8841b704,prod_e6d12ae4,Self-Help Guide,Books,22.61,view,2026-01-30 07:56:32
+0498ab9c-1bb8-477e-b6b6-e811292a7273,user_e8436ab9,prod_fb1e0b57,Basketball,Sports,39.6,add_to_cart,2026-01-30 07:56:32
+dffa406a-7876-46da-b485-1bf2fb303b3e,user_3f77c2e4,prod_f05c29bc,Bluetooth Speaker,Electronics,110.08,add_to_cart,2026-01-30 07:56:32
+727bc7af-30c0-4774-a989-f88bdbd71223,user_fc4635a3,prod_ee33e3e3,Coffee Maker,Home & Garden,131.29,view,2026-01-30 07:56:32
+1e17a420-ee64-4c42-a31a-1dbb29b7be12,user_a0d67938,prod_58e57f83,Dumbbell Set,Sports,119.0,view,2026-01-30 07:56:32
+30041de1-7b9c-42e0-ab14-2e91749077be,user_1be928d8,prod_a8687eda,LED Desk Lamp,Home & Garden,56.83,add_to_cart,2026-01-30 07:56:32

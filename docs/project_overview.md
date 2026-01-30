@@ -79,6 +79,14 @@ This project implements a **real-time data ingestion pipeline** that simulates a
 - Unique constraint on `event_id` prevents duplicates
 - Indexes on `user_id`, `event_type`, `timestamp` for query performance
 
+**Reporting Views**:
+Pre-built views simplify common analytics queries:
+- `v_event_summary` - Aggregated stats by event type
+- `v_hourly_events` - Time-series trends for dashboards
+- `v_purchase_funnel` - User journey analysis
+- `v_top_products` - Best-selling products by revenue
+- `v_recent_activity` - Latest 100 events
+
 ---
 
 ## Data Flow

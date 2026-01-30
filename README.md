@@ -18,6 +18,7 @@ The pipeline consists of three main stages: Data Generation, Stream Processing, 
   - **Deduplication**: Ensures each `event_id` is processed only once.
   - **Schema Validation**: Enforces strict data types for downstream consistency.
 - **Robust Storage**: Uses PostgreSQL with optimized indexes for analytical queries.
+- **Performance Logging**: Detailed metrics logged to `logs/` directory for monitoring.
 
 ## Technology Stack
 
@@ -35,35 +36,36 @@ The pipeline consists of three main stages: Data Generation, Stream Processing, 
 - **Docker Desktop** installed and running.
 - **Git** (optional, for cloning).
 
-### Installation & Running
+### Installation
 
-1.  **Clone the Repository** (or download source):
-    ```bash
-    git clone <repository-url>
-    cd Real-Time-Data-Ingestion-Using-Spark-Streaming
-    ```
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/evans-ankomah/Real-time-Data-Ingestion-Using-Spark-Streaming.git
+   cd Real-Time-Data-Ingestion-Using-Spark-Streaming
+   ```
 
-2.  **Start Services** (in background):
-    ```bash
-    docker-compose up -d
-    ```
-    *This starts the PostgreSQL database and the Spark master/worker nodes.*
+2. **Start Services** (in background):
+   ```bash
+   docker compose up -d --build
+   ```
+   *This starts the PostgreSQL database and the Spark container.*
 
-3.  **Run the Streaming Pipeline**:
-    You can run the generator and the spark job locally or inside the container. Assuming local execution with Python installed:
-    
-    a. **Start Data Generator**:
-    ```bash
-    # Run in a separate terminal
-    pip install faker
-    python src/data_generator.py
-    ```
+3. **Run the Streaming Pipeline**:
 
-    b. **Submit Spark Job**:
-    ```bash
-    # Run in another terminal
-    spark-submit --packages org.postgresql:postgresql:42.7.1 src/spark_streaming_to_postgres.py
-    ```
+   a. **Start Spark Streaming Job**:
+   ```bash
+   docker compose exec spark spark-submit /app/src/spark_streaming_to_postgres.py
+   ```
+
+   b. **Start Data Generator** (in a new terminal):
+   ```bash
+   docker compose exec spark python3 /app/src/data_generator.py --events-per-second 10 --duration 60
+   ```
+
+4. **Verify Data in PostgreSQL**:
+   ```bash
+   docker compose exec postgres psql -U postgres -d ecommerce_events -c "SELECT COUNT(*) FROM user_events;"
+   ```
 
 ## Project Structure
 
@@ -75,6 +77,9 @@ The pipeline consists of three main stages: Data Generation, Stream Processing, 
 │   ├── error/              # Quarantine for invalid records
 │   └── processed/          # (Optional) Parquet/Delta output
 ├── docs/                   # Detailed documentation
+├── logs/                   # Performance metrics logs
+│   ├── generator_metrics.log   # Data generator batch metrics
+│   └── streaming_metrics.log   # Spark streaming batch metrics
 ├── sql/
 │   └── postgres_setup.sql  # Database schema & initialization
 ├── src/
@@ -99,20 +104,67 @@ The `user_events` table is designed for high-throughput writes and analytical re
 | `event_timestamp` | TIMESTAMP | Time of occurrence |
 | `created_at` | TIMESTAMP | Ingestion time |
 
+## Reporting Views
+
+Pre-built views for simplified analytics queries:
+
+| View | Purpose |
+|------|---------|
+| `v_event_summary` | Aggregated stats by event type |
+| `v_hourly_events` | Time-series trends for dashboards |
+| `v_purchase_funnel` | User journey (views → cart → purchase) |
+| `v_top_products` | Best-selling products by revenue |
+| `v_recent_activity` | Latest 100 events |
+
+**Example usage:**
+```sql
+SELECT * FROM v_event_summary;
+SELECT * FROM v_top_products LIMIT 10;
+```
+
 ## Monitoring
 
-- **Spark UI**: Access at `http://localhost:4040` (when running locally) to view active streams and processing rates.
-- **Postgres Data**:
-    ```sql
-    -- Connect to DB
-    psql -h localhost -U postgres -d ecommerce_events
+### Spark UI
+Access at `http://localhost:4040` (when job is running) to view active streams and processing rates.
 
-    -- Check event count
-    SELECT count(*) FROM user_events;
-    
-    -- See recent activity
-    SELECT * FROM user_events ORDER BY event_timestamp DESC LIMIT 5;
-    ```
+### Performance Logs
+Check `logs/` directory for detailed batch-by-batch metrics:
+```bash
+# Generator metrics
+cat logs/generator_metrics.log
+
+# Streaming metrics
+cat logs/streaming_metrics.log
+```
+
+### PostgreSQL
+```sql
+-- Connect to DB
+docker compose exec postgres psql -U postgres -d ecommerce_events
+
+-- Check event count
+SELECT COUNT(*) FROM user_events;
+
+-- Use reporting views
+SELECT * FROM v_event_summary;
+```
+
+## Connecting with pgAdmin
+
+| Setting | Value |
+|---------|-------|
+| Host | `localhost` |
+| Port | `5432` |
+| Database | `ecommerce_events` |
+| Username | `postgres` |
+| Password | `Amalitech.org` |
+
+## Documentation
+
+- [User Guide](docs/user_guide.md) - Step-by-step usage instructions
+- [Project Overview](docs/project_overview.md) - Architecture and design decisions
+- [Performance Metrics](docs/performance_metrics.md) - Benchmark results
+- [Test Cases](docs/test_cases.md) - Validation test results
 
 ## Contributing
 
