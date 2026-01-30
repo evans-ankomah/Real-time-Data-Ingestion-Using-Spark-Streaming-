@@ -82,3 +82,397 @@
 2026-01-30 07:56:39 | INFO     | DataGenerator | Elapsed time: 31.0 seconds
 2026-01-30 07:56:39 | INFO     | DataGenerator | Average rate: 10.3 events/second
 2026-01-30 07:56:39 | INFO     | DataGenerator | ============================================================
+2026-01-30 08:35:45 | INFO     | DataGenerator | ============================================================
+2026-01-30 08:35:45 | INFO     | DataGenerator | E-commerce Event Generator Started
+2026-01-30 08:35:45 | INFO     | DataGenerator | ============================================================
+2026-01-30 08:35:45 | INFO     | DataGenerator | Events per second: 10
+2026-01-30 08:35:45 | INFO     | DataGenerator | Batch size: 10
+2026-01-30 08:35:45 | INFO     | DataGenerator | Output directory: /app/data/raw
+2026-01-30 08:35:45 | INFO     | DataGenerator | Duration: Indefinite
+2026-01-30 08:35:45 | INFO     | DataGenerator | ============================================================
+2026-01-30 08:35:45 | INFO     | DataGenerator | Press Ctrl+C to stop gracefully
+2026-01-30 08:35:45 | INFO     | DataGenerator | 
+2026-01-30 08:35:45 | INFO     | DataGenerator | File #1: events_20260130_083545_696244.csv | Events: 10 | Total: 10 | Rate: 382.6 evt/s
+2026-01-30 08:35:45 | INFO     | DataGenerator |   └─ Batch #1 Metrics: batch_time=0.012s | types=[add_to_cart:4, view:5, purchase:1] | avg_price=$74.28 | elapsed=0.0s
+2026-01-30 08:35:46 | INFO     | DataGenerator | File #2: events_20260130_083546_683374.csv | Events: 10 | Total: 20 | Rate: 19.8 evt/s
+2026-01-30 08:35:46 | INFO     | DataGenerator |   └─ Batch #2 Metrics: batch_time=0.981s | types=[add_to_cart:4, view:6] | avg_price=$64.76 | elapsed=1.0s
+2026-01-30 08:35:47 | INFO     | DataGenerator | File #3: events_20260130_083547_683240.csv | Events: 10 | Total: 30 | Rate: 14.9 evt/s
+2026-01-30 08:35:47 | INFO     | DataGenerator |   └─ Batch #3 Metrics: batch_time=0.995s | types=[view:5, add_to_cart:5] | avg_price=$57.32 | elapsed=2.0s
+2026-01-30 08:35:48 | INFO     | DataGenerator | File #4: events_20260130_083548_582767.csv | Events: 10 | Total: 40 | Rate: 13.7 evt/s
+2026-01-30 08:35:48 | INFO     | DataGenerator |   └─ Batch #4 Metrics: batch_time=0.899s | types=[add_to_cart:5, view:5] | avg_price=$43.93 | elapsed=2.9s
+2026-01-30 08:35:49 | INFO     | DataGenerator | File #5: events_20260130_083549_583709.csv | Events: 10 | Total: 50 | Rate: 12.8 evt/s
+2026-01-30 08:35:49 | INFO     | DataGenerator |   └─ Batch #5 Metrics: batch_time=1.003s | types=[view:7, add_to_cart:2, purchase:1] | avg_price=$64.52 | elapsed=3.9s
+2026-01-30 08:35:50 | INFO     | DataGenerator | File #6: events_20260130_083550_584636.csv | Events: 10 | Total: 60 | Rate: 12.2 evt/s
+2026-01-30 08:35:50 | INFO     | DataGenerator |   └─ Batch #6 Metrics: batch_time=0.992s | types=[add_to_cart:5, purchase:2, view:3] | avg_price=$51.61 | elapsed=4.9s
+2026-01-30 08:35:51 | INFO     | DataGenerator | File #7: events_20260130_083551_585016.csv | Events: 10 | Total: 70 | Rate: 11.8 evt/s
+2026-01-30 08:35:51 | INFO     | DataGenerator |   └─ Batch #7 Metrics: batch_time=0.998s | types=[view:8, add_to_cart:2] | avg_price=$60.43 | elapsed=5.9s
+2026-01-30 08:35:52 | INFO     | DataGenerator | File #8: events_20260130_083552_585090.csv | Events: 10 | Total: 80 | Rate: 11.6 evt/s
+2026-01-30 08:35:52 | INFO     | DataGenerator |   └─ Batch #8 Metrics: batch_time=0.998s | types=[add_to_cart:5, view:4, purchase:1] | avg_price=$57.88 | elapsed=6.9s
+2026-01-30 08:35:53 | INFO     | DataGenerator | File #9: events_20260130_083553_585462.csv | Events: 10 | Total: 90 | Rate: 11.4 evt/s
+2026-01-30 08:35:53 | INFO     | DataGenerator |   └─ Batch #9 Metrics: batch_time=1.001s | types=[view:3, add_to_cart:6, purchase:1] | avg_price=$57.70 | elapsed=7.9s
+2026-01-30 08:35:54 | INFO     | DataGenerator | File #10: events_20260130_083554_586552.csv | Events: 10 | Total: 100 | Rate: 11.2 evt/s
+2026-01-30 08:35:54 | INFO     | DataGenerator |   └─ Batch #10 Metrics: batch_time=0.996s | types=[view:7, purchase:1, add_to_cart:2] | avg_price=$67.76 | elapsed=8.9s
+2026-01-30 08:35:55 | INFO     | DataGenerator | File #11: events_20260130_083555_587269.csv | Events: 10 | Total: 110 | Rate: 11.1 evt/s
+2026-01-30 08:35:55 | INFO     | DataGenerator |   └─ Batch #11 Metrics: batch_time=1.000s | types=[add_to_cart:3, view:6, purchase:1] | avg_price=$56.49 | elapsed=9.9s
+2026-01-30 08:35:56 | INFO     | DataGenerator | File #12: events_20260130_083556_588530.csv | Events: 10 | Total: 120 | Rate: 11.0 evt/s
+2026-01-30 08:35:56 | INFO     | DataGenerator |   └─ Batch #12 Metrics: batch_time=1.017s | types=[view:8, add_to_cart:1, purchase:1] | avg_price=$56.89 | elapsed=10.9s
+2026-01-30 08:35:57 | INFO     | DataGenerator | File #13: events_20260130_083557_589697.csv | Events: 10 | Total: 130 | Rate: 10.9 evt/s
+2026-01-30 08:35:57 | INFO     | DataGenerator |   └─ Batch #13 Metrics: batch_time=1.003s | types=[view:3, purchase:1, add_to_cart:6] | avg_price=$69.58 | elapsed=11.9s
+2026-01-30 08:35:58 | INFO     | DataGenerator | File #14: events_20260130_083558_590843.csv | Events: 10 | Total: 140 | Rate: 10.8 evt/s
+2026-01-30 08:35:58 | INFO     | DataGenerator |   └─ Batch #14 Metrics: batch_time=0.973s | types=[view:4, add_to_cart:5, purchase:1] | avg_price=$79.67 | elapsed=12.9s
+2026-01-30 08:35:59 | INFO     | DataGenerator | File #15: events_20260130_083559_592026.csv | Events: 10 | Total: 150 | Rate: 10.8 evt/s
+2026-01-30 08:35:59 | INFO     | DataGenerator |   └─ Batch #15 Metrics: batch_time=1.004s | types=[view:6, purchase:2, add_to_cart:2] | avg_price=$59.11 | elapsed=13.9s
+2026-01-30 08:36:00 | INFO     | DataGenerator | File #16: events_20260130_083600_592930.csv | Events: 10 | Total: 160 | Rate: 10.7 evt/s
+2026-01-30 08:36:00 | INFO     | DataGenerator |   └─ Batch #16 Metrics: batch_time=0.979s | types=[view:7, add_to_cart:1, purchase:2] | avg_price=$63.53 | elapsed=14.9s
+2026-01-30 08:36:01 | INFO     | DataGenerator | File #17: events_20260130_083601_593840.csv | Events: 10 | Total: 170 | Rate: 10.7 evt/s
+2026-01-30 08:36:01 | INFO     | DataGenerator |   └─ Batch #17 Metrics: batch_time=1.001s | types=[add_to_cart:6, purchase:1, view:3] | avg_price=$47.32 | elapsed=15.9s
+2026-01-30 08:36:02 | INFO     | DataGenerator | File #18: events_20260130_083602_597187.csv | Events: 10 | Total: 180 | Rate: 10.6 evt/s
+2026-01-30 08:36:02 | INFO     | DataGenerator |   └─ Batch #18 Metrics: batch_time=1.004s | types=[view:6, add_to_cart:2, purchase:2] | avg_price=$75.97 | elapsed=16.9s
+2026-01-30 08:36:03 | INFO     | DataGenerator | File #19: events_20260130_083603_598320.csv | Events: 10 | Total: 190 | Rate: 10.6 evt/s
+2026-01-30 08:36:03 | INFO     | DataGenerator |   └─ Batch #19 Metrics: batch_time=0.969s | types=[view:9, add_to_cart:1] | avg_price=$66.00 | elapsed=17.9s
+2026-01-30 08:36:04 | INFO     | DataGenerator | File #20: events_20260130_083604_599387.csv | Events: 10 | Total: 200 | Rate: 10.6 evt/s
+2026-01-30 08:36:04 | INFO     | DataGenerator |   └─ Batch #20 Metrics: batch_time=0.998s | types=[add_to_cart:3, view:6, purchase:1] | avg_price=$50.42 | elapsed=18.9s
+2026-01-30 08:36:05 | INFO     | DataGenerator | File #21: events_20260130_083605_600576.csv | Events: 10 | Total: 210 | Rate: 10.5 evt/s
+2026-01-30 08:36:05 | INFO     | DataGenerator |   └─ Batch #21 Metrics: batch_time=0.998s | types=[add_to_cart:3, purchase:2, view:5] | avg_price=$48.55 | elapsed=19.9s
+2026-01-30 08:36:06 | INFO     | DataGenerator | File #22: events_20260130_083606_601117.csv | Events: 10 | Total: 220 | Rate: 10.5 evt/s
+2026-01-30 08:36:06 | INFO     | DataGenerator |   └─ Batch #22 Metrics: batch_time=1.004s | types=[add_to_cart:3, view:5, purchase:2] | avg_price=$44.89 | elapsed=20.9s
+2026-01-30 08:36:07 | INFO     | DataGenerator | File #23: events_20260130_083607_602155.csv | Events: 10 | Total: 230 | Rate: 10.5 evt/s
+2026-01-30 08:36:07 | INFO     | DataGenerator |   └─ Batch #23 Metrics: batch_time=0.993s | types=[view:6, add_to_cart:4] | avg_price=$37.35 | elapsed=21.9s
+2026-01-30 08:36:08 | INFO     | DataGenerator | File #24: events_20260130_083608_603526.csv | Events: 10 | Total: 240 | Rate: 10.5 evt/s
+2026-01-30 08:36:08 | INFO     | DataGenerator |   └─ Batch #24 Metrics: batch_time=1.001s | types=[purchase:1, add_to_cart:3, view:6] | avg_price=$37.53 | elapsed=22.9s
+2026-01-30 08:36:09 | INFO     | DataGenerator | File #25: events_20260130_083609_606752.csv | Events: 10 | Total: 250 | Rate: 10.4 evt/s
+2026-01-30 08:36:09 | INFO     | DataGenerator |   └─ Batch #25 Metrics: batch_time=1.003s | types=[view:6, add_to_cart:4] | avg_price=$59.73 | elapsed=23.9s
+2026-01-30 08:36:10 | INFO     | DataGenerator | File #26: events_20260130_083610_609245.csv | Events: 10 | Total: 260 | Rate: 10.4 evt/s
+2026-01-30 08:36:10 | INFO     | DataGenerator |   └─ Batch #26 Metrics: batch_time=1.006s | types=[view:6, add_to_cart:3, purchase:1] | avg_price=$56.77 | elapsed=24.9s
+2026-01-30 08:36:11 | INFO     | DataGenerator | File #27: events_20260130_083611_610380.csv | Events: 10 | Total: 270 | Rate: 10.4 evt/s
+2026-01-30 08:36:11 | INFO     | DataGenerator |   └─ Batch #27 Metrics: batch_time=0.995s | types=[view:7, add_to_cart:2, purchase:1] | avg_price=$73.13 | elapsed=25.9s
+2026-01-30 08:36:12 | INFO     | DataGenerator | File #28: events_20260130_083612_611300.csv | Events: 10 | Total: 280 | Rate: 10.4 evt/s
+2026-01-30 08:36:12 | INFO     | DataGenerator |   └─ Batch #28 Metrics: batch_time=0.999s | types=[view:6, purchase:3, add_to_cart:1] | avg_price=$50.18 | elapsed=27.0s
+2026-01-30 08:36:13 | INFO     | DataGenerator | File #29: events_20260130_083613_618492.csv | Events: 10 | Total: 290 | Rate: 10.4 evt/s
+2026-01-30 08:36:13 | INFO     | DataGenerator |   └─ Batch #29 Metrics: batch_time=0.991s | types=[view:7, add_to_cart:2, purchase:1] | avg_price=$73.85 | elapsed=28.0s
+2026-01-30 08:36:14 | INFO     | DataGenerator | File #30: events_20260130_083614_618646.csv | Events: 10 | Total: 300 | Rate: 10.4 evt/s
+2026-01-30 08:36:14 | INFO     | DataGenerator |   └─ Batch #30 Metrics: batch_time=0.992s | types=[add_to_cart:2, view:5, purchase:3] | avg_price=$41.83 | elapsed=29.0s
+2026-01-30 08:36:15 | INFO     | DataGenerator | File #31: events_20260130_083615_628141.csv | Events: 10 | Total: 310 | Rate: 10.3 evt/s
+2026-01-30 08:36:15 | INFO     | DataGenerator |   └─ Batch #31 Metrics: batch_time=0.996s | types=[view:5, add_to_cart:4, purchase:1] | avg_price=$81.72 | elapsed=30.0s
+2026-01-30 08:36:16 | INFO     | DataGenerator | File #32: events_20260130_083616_630061.csv | Events: 10 | Total: 320 | Rate: 10.3 evt/s
+2026-01-30 08:36:16 | INFO     | DataGenerator |   └─ Batch #32 Metrics: batch_time=0.991s | types=[add_to_cart:2, view:7, purchase:1] | avg_price=$63.23 | elapsed=31.0s
+2026-01-30 08:36:17 | INFO     | DataGenerator | File #33: events_20260130_083617_632304.csv | Events: 10 | Total: 330 | Rate: 10.3 evt/s
+2026-01-30 08:36:17 | INFO     | DataGenerator |   └─ Batch #33 Metrics: batch_time=0.998s | types=[view:9, add_to_cart:1] | avg_price=$70.16 | elapsed=32.0s
+2026-01-30 08:36:18 | INFO     | DataGenerator | File #34: events_20260130_083618_589166.csv | Events: 10 | Total: 340 | Rate: 10.3 evt/s
+2026-01-30 08:36:18 | INFO     | DataGenerator |   └─ Batch #34 Metrics: batch_time=0.955s | types=[view:7, add_to_cart:3] | avg_price=$57.32 | elapsed=32.9s
+2026-01-30 08:36:19 | INFO     | DataGenerator | File #35: events_20260130_083619_589783.csv | Events: 10 | Total: 350 | Rate: 10.3 evt/s
+2026-01-30 08:36:19 | INFO     | DataGenerator |   └─ Batch #35 Metrics: batch_time=0.992s | types=[add_to_cart:4, view:5, purchase:1] | avg_price=$39.52 | elapsed=33.9s
+2026-01-30 08:36:20 | INFO     | DataGenerator | File #36: events_20260130_083620_591134.csv | Events: 10 | Total: 360 | Rate: 10.3 evt/s
+2026-01-30 08:36:20 | INFO     | DataGenerator |   └─ Batch #36 Metrics: batch_time=1.000s | types=[view:8, add_to_cart:2] | avg_price=$35.17 | elapsed=34.9s
+2026-01-30 08:36:21 | INFO     | DataGenerator | File #37: events_20260130_083621_592278.csv | Events: 10 | Total: 370 | Rate: 10.3 evt/s
+2026-01-30 08:36:21 | INFO     | DataGenerator |   └─ Batch #37 Metrics: batch_time=0.997s | types=[add_to_cart:4, purchase:2, view:4] | avg_price=$76.65 | elapsed=35.9s
+2026-01-30 08:36:22 | INFO     | DataGenerator | File #38: events_20260130_083622_592867.csv | Events: 10 | Total: 380 | Rate: 10.3 evt/s
+2026-01-30 08:36:22 | INFO     | DataGenerator |   └─ Batch #38 Metrics: batch_time=0.997s | types=[purchase:1, view:6, add_to_cart:3] | avg_price=$46.20 | elapsed=36.9s
+2026-01-30 08:36:23 | INFO     | DataGenerator | File #39: events_20260130_083623_599957.csv | Events: 10 | Total: 390 | Rate: 10.3 evt/s
+2026-01-30 08:36:23 | INFO     | DataGenerator |   └─ Batch #39 Metrics: batch_time=1.049s | types=[add_to_cart:2, view:6, purchase:2] | avg_price=$51.37 | elapsed=38.0s
+2026-01-30 08:36:24 | INFO     | DataGenerator | File #40: events_20260130_083624_600938.csv | Events: 10 | Total: 400 | Rate: 10.3 evt/s
+2026-01-30 08:36:24 | INFO     | DataGenerator |   └─ Batch #40 Metrics: batch_time=0.909s | types=[add_to_cart:2, view:8] | avg_price=$36.43 | elapsed=38.9s
+2026-01-30 08:36:25 | INFO     | DataGenerator | File #41: events_20260130_083625_601784.csv | Events: 10 | Total: 410 | Rate: 10.3 evt/s
+2026-01-30 08:36:25 | INFO     | DataGenerator |   └─ Batch #41 Metrics: batch_time=0.994s | types=[view:9, purchase:1] | avg_price=$46.16 | elapsed=39.9s
+2026-01-30 08:36:26 | INFO     | DataGenerator | File #42: events_20260130_083626_603414.csv | Events: 10 | Total: 420 | Rate: 10.3 evt/s
+2026-01-30 08:36:26 | INFO     | DataGenerator |   └─ Batch #42 Metrics: batch_time=1.006s | types=[add_to_cart:3, purchase:2, view:5] | avg_price=$64.89 | elapsed=40.9s
+2026-01-30 08:36:27 | INFO     | DataGenerator | File #43: events_20260130_083627_604264.csv | Events: 10 | Total: 430 | Rate: 10.3 evt/s
+2026-01-30 08:36:27 | INFO     | DataGenerator |   └─ Batch #43 Metrics: batch_time=0.997s | types=[purchase:1, add_to_cart:2, view:7] | avg_price=$76.18 | elapsed=41.9s
+2026-01-30 08:36:28 | INFO     | DataGenerator | File #44: events_20260130_083628_605120.csv | Events: 10 | Total: 440 | Rate: 10.2 evt/s
+2026-01-30 08:36:28 | INFO     | DataGenerator |   └─ Batch #44 Metrics: batch_time=1.001s | types=[view:7, purchase:2, add_to_cart:1] | avg_price=$73.12 | elapsed=42.9s
+2026-01-30 08:36:29 | INFO     | DataGenerator | File #45: events_20260130_083629_606476.csv | Events: 10 | Total: 450 | Rate: 10.2 evt/s
+2026-01-30 08:36:29 | INFO     | DataGenerator |   └─ Batch #45 Metrics: batch_time=0.998s | types=[add_to_cart:5, view:4, purchase:1] | avg_price=$41.59 | elapsed=43.9s
+2026-01-30 08:36:30 | INFO     | DataGenerator | File #46: events_20260130_083630_608283.csv | Events: 10 | Total: 460 | Rate: 10.2 evt/s
+2026-01-30 08:36:30 | INFO     | DataGenerator |   └─ Batch #46 Metrics: batch_time=0.998s | types=[view:5, add_to_cart:4, purchase:1] | avg_price=$51.38 | elapsed=44.9s
+2026-01-30 08:36:31 | INFO     | DataGenerator | File #47: events_20260130_083631_608931.csv | Events: 10 | Total: 470 | Rate: 10.2 evt/s
+2026-01-30 08:36:31 | INFO     | DataGenerator |   └─ Batch #47 Metrics: batch_time=0.996s | types=[view:6, add_to_cart:3, purchase:1] | avg_price=$46.95 | elapsed=45.9s
+2026-01-30 08:36:32 | INFO     | DataGenerator | File #48: events_20260130_083632_609808.csv | Events: 10 | Total: 480 | Rate: 10.2 evt/s
+2026-01-30 08:36:32 | INFO     | DataGenerator |   └─ Batch #48 Metrics: batch_time=0.991s | types=[add_to_cart:3, view:7] | avg_price=$45.12 | elapsed=46.9s
+2026-01-30 08:36:33 | INFO     | DataGenerator | File #49: events_20260130_083633_610775.csv | Events: 10 | Total: 490 | Rate: 10.2 evt/s
+2026-01-30 08:36:33 | INFO     | DataGenerator |   └─ Batch #49 Metrics: batch_time=0.999s | types=[view:8, add_to_cart:2] | avg_price=$44.75 | elapsed=47.9s
+2026-01-30 08:36:34 | INFO     | DataGenerator | File #50: events_20260130_083634_613315.csv | Events: 10 | Total: 500 | Rate: 10.2 evt/s
+2026-01-30 08:36:34 | INFO     | DataGenerator |   └─ Batch #50 Metrics: batch_time=1.004s | types=[view:6, add_to_cart:4] | avg_price=$72.41 | elapsed=48.9s
+2026-01-30 08:36:35 | INFO     | DataGenerator | File #51: events_20260130_083635_614480.csv | Events: 10 | Total: 510 | Rate: 10.2 evt/s
+2026-01-30 08:36:35 | INFO     | DataGenerator |   └─ Batch #51 Metrics: batch_time=0.998s | types=[view:7, purchase:1, add_to_cart:2] | avg_price=$78.30 | elapsed=49.9s
+2026-01-30 08:36:36 | INFO     | DataGenerator | File #52: events_20260130_083636_616213.csv | Events: 10 | Total: 520 | Rate: 10.2 evt/s
+2026-01-30 08:36:36 | INFO     | DataGenerator |   └─ Batch #52 Metrics: batch_time=0.997s | types=[view:7, purchase:2, add_to_cart:1] | avg_price=$53.52 | elapsed=50.9s
+2026-01-30 08:36:37 | INFO     | DataGenerator | File #53: events_20260130_083637_618303.csv | Events: 10 | Total: 530 | Rate: 10.2 evt/s
+2026-01-30 08:36:37 | INFO     | DataGenerator |   └─ Batch #53 Metrics: batch_time=1.056s | types=[view:7, add_to_cart:3] | avg_price=$64.04 | elapsed=52.0s
+2026-01-30 08:36:38 | INFO     | DataGenerator | File #54: events_20260130_083638_620072.csv | Events: 10 | Total: 540 | Rate: 10.2 evt/s
+2026-01-30 08:36:38 | INFO     | DataGenerator |   └─ Batch #54 Metrics: batch_time=0.948s | types=[view:4, add_to_cart:4, purchase:2] | avg_price=$74.56 | elapsed=53.0s
+2026-01-30 08:36:39 | INFO     | DataGenerator | File #55: events_20260130_083639_620913.csv | Events: 10 | Total: 550 | Rate: 10.2 evt/s
+2026-01-30 08:36:39 | INFO     | DataGenerator |   └─ Batch #55 Metrics: batch_time=0.997s | types=[view:7, purchase:1, add_to_cart:2] | avg_price=$54.23 | elapsed=54.0s
+2026-01-30 08:36:40 | INFO     | DataGenerator | File #56: events_20260130_083640_621982.csv | Events: 10 | Total: 560 | Rate: 10.2 evt/s
+2026-01-30 08:36:40 | INFO     | DataGenerator |   └─ Batch #56 Metrics: batch_time=1.000s | types=[add_to_cart:5, purchase:3, view:2] | avg_price=$70.21 | elapsed=55.0s
+2026-01-30 08:36:41 | INFO     | DataGenerator | File #57: events_20260130_083641_623069.csv | Events: 10 | Total: 570 | Rate: 10.2 evt/s
+2026-01-30 08:36:41 | INFO     | DataGenerator |   └─ Batch #57 Metrics: batch_time=0.993s | types=[purchase:3, view:6, add_to_cart:1] | avg_price=$61.89 | elapsed=55.9s
+2026-01-30 08:36:42 | INFO     | DataGenerator | File #58: events_20260130_083642_624398.csv | Events: 10 | Total: 580 | Rate: 10.2 evt/s
+2026-01-30 08:36:42 | INFO     | DataGenerator |   └─ Batch #58 Metrics: batch_time=1.000s | types=[view:7, add_to_cart:3] | avg_price=$89.78 | elapsed=56.9s
+2026-01-30 08:36:43 | INFO     | DataGenerator | File #59: events_20260130_083643_628869.csv | Events: 10 | Total: 590 | Rate: 10.2 evt/s
+2026-01-30 08:36:43 | INFO     | DataGenerator |   └─ Batch #59 Metrics: batch_time=1.005s | types=[view:4, add_to_cart:5, purchase:1] | avg_price=$57.63 | elapsed=58.0s
+2026-01-30 08:36:44 | INFO     | DataGenerator | File #60: events_20260130_083644_630109.csv | Events: 10 | Total: 600 | Rate: 10.2 evt/s
+2026-01-30 08:36:44 | INFO     | DataGenerator |   └─ Batch #60 Metrics: batch_time=1.000s | types=[view:5, add_to_cart:5] | avg_price=$40.85 | elapsed=59.0s
+2026-01-30 08:36:45 | INFO     | DataGenerator | File #61: events_20260130_083645_631622.csv | Events: 10 | Total: 610 | Rate: 10.2 evt/s
+2026-01-30 08:36:45 | INFO     | DataGenerator |   └─ Batch #61 Metrics: batch_time=0.998s | types=[view:5, purchase:1, add_to_cart:4] | avg_price=$53.90 | elapsed=60.0s
+2026-01-30 08:36:46 | INFO     | DataGenerator | File #62: events_20260130_083646_632764.csv | Events: 10 | Total: 620 | Rate: 10.2 evt/s
+2026-01-30 08:36:46 | INFO     | DataGenerator |   └─ Batch #62 Metrics: batch_time=0.996s | types=[add_to_cart:4, view:6] | avg_price=$50.64 | elapsed=61.0s
+2026-01-30 08:36:47 | INFO     | DataGenerator | File #63: events_20260130_083647_635228.csv | Events: 10 | Total: 630 | Rate: 10.2 evt/s
+2026-01-30 08:36:47 | INFO     | DataGenerator |   └─ Batch #63 Metrics: batch_time=1.008s | types=[add_to_cart:5, view:5] | avg_price=$43.96 | elapsed=62.0s
+2026-01-30 08:36:48 | INFO     | DataGenerator | File #64: events_20260130_083648_546793.csv | Events: 10 | Total: 640 | Rate: 10.2 evt/s
+2026-01-30 08:36:48 | INFO     | DataGenerator |   └─ Batch #64 Metrics: batch_time=0.910s | types=[view:5, add_to_cart:3, purchase:2] | avg_price=$76.24 | elapsed=62.9s
+2026-01-30 08:36:49 | INFO     | DataGenerator | File #65: events_20260130_083649_547127.csv | Events: 10 | Total: 650 | Rate: 10.2 evt/s
+2026-01-30 08:36:49 | INFO     | DataGenerator |   └─ Batch #65 Metrics: batch_time=0.997s | types=[add_to_cart:4, view:6] | avg_price=$41.87 | elapsed=63.9s
+2026-01-30 08:36:50 | INFO     | DataGenerator | File #66: events_20260130_083650_548303.csv | Events: 10 | Total: 660 | Rate: 10.2 evt/s
+2026-01-30 08:36:50 | INFO     | DataGenerator |   └─ Batch #66 Metrics: batch_time=0.993s | types=[view:7, purchase:2, add_to_cart:1] | avg_price=$49.56 | elapsed=64.9s
+2026-01-30 08:36:51 | INFO     | DataGenerator | File #67: events_20260130_083651_549632.csv | Events: 10 | Total: 670 | Rate: 10.2 evt/s
+2026-01-30 08:36:51 | INFO     | DataGenerator |   └─ Batch #67 Metrics: batch_time=0.998s | types=[view:4, add_to_cart:6] | avg_price=$66.56 | elapsed=65.9s
+2026-01-30 08:36:52 | INFO     | DataGenerator | File #68: events_20260130_083652_550263.csv | Events: 10 | Total: 680 | Rate: 10.2 evt/s
+2026-01-30 08:36:52 | INFO     | DataGenerator |   └─ Batch #68 Metrics: batch_time=1.002s | types=[view:6, purchase:1, add_to_cart:3] | avg_price=$57.53 | elapsed=66.9s
+2026-01-30 08:36:53 | INFO     | DataGenerator | File #69: events_20260130_083653_554331.csv | Events: 10 | Total: 690 | Rate: 10.2 evt/s
+2026-01-30 08:36:53 | INFO     | DataGenerator |   └─ Batch #69 Metrics: batch_time=0.998s | types=[add_to_cart:3, purchase:2, view:5] | avg_price=$68.10 | elapsed=67.9s
+2026-01-30 08:36:54 | INFO     | DataGenerator | File #70: events_20260130_083654_555599.csv | Events: 10 | Total: 700 | Rate: 10.2 evt/s
+2026-01-30 08:36:54 | INFO     | DataGenerator |   └─ Batch #70 Metrics: batch_time=1.001s | types=[view:7, purchase:3] | avg_price=$71.32 | elapsed=68.9s
+2026-01-30 08:36:55 | INFO     | DataGenerator | File #71: events_20260130_083655_556151.csv | Events: 10 | Total: 710 | Rate: 10.2 evt/s
+2026-01-30 08:36:55 | INFO     | DataGenerator |   └─ Batch #71 Metrics: batch_time=0.994s | types=[view:7, add_to_cart:2, purchase:1] | avg_price=$116.28 | elapsed=69.9s
+2026-01-30 08:36:56 | INFO     | DataGenerator | File #72: events_20260130_083656_558741.csv | Events: 10 | Total: 720 | Rate: 10.2 evt/s
+2026-01-30 08:36:56 | INFO     | DataGenerator |   └─ Batch #72 Metrics: batch_time=1.011s | types=[add_to_cart:3, view:6, purchase:1] | avg_price=$63.08 | elapsed=70.9s
+2026-01-30 08:36:57 | INFO     | DataGenerator | File #73: events_20260130_083657_560185.csv | Events: 10 | Total: 730 | Rate: 10.2 evt/s
+2026-01-30 08:36:57 | INFO     | DataGenerator |   └─ Batch #73 Metrics: batch_time=0.994s | types=[add_to_cart:3, view:6, purchase:1] | avg_price=$55.79 | elapsed=71.9s
+2026-01-30 08:36:58 | INFO     | DataGenerator | File #74: events_20260130_083658_561063.csv | Events: 10 | Total: 740 | Rate: 10.2 evt/s
+2026-01-30 08:36:58 | INFO     | DataGenerator |   └─ Batch #74 Metrics: batch_time=0.995s | types=[view:7, add_to_cart:2, purchase:1] | avg_price=$41.62 | elapsed=72.9s
+2026-01-30 08:36:59 | INFO     | DataGenerator | File #75: events_20260130_083659_564075.csv | Events: 10 | Total: 750 | Rate: 10.1 evt/s
+2026-01-30 08:36:59 | INFO     | DataGenerator |   └─ Batch #75 Metrics: batch_time=1.002s | types=[purchase:1, add_to_cart:4, view:5] | avg_price=$69.16 | elapsed=73.9s
+2026-01-30 08:37:00 | INFO     | DataGenerator | File #76: events_20260130_083700_565188.csv | Events: 10 | Total: 760 | Rate: 10.1 evt/s
+2026-01-30 08:37:00 | INFO     | DataGenerator |   └─ Batch #76 Metrics: batch_time=0.989s | types=[view:5, add_to_cart:3, purchase:2] | avg_price=$52.85 | elapsed=74.9s
+2026-01-30 08:37:01 | INFO     | DataGenerator | File #77: events_20260130_083701_566708.csv | Events: 10 | Total: 770 | Rate: 10.1 evt/s
+2026-01-30 08:37:01 | INFO     | DataGenerator |   └─ Batch #77 Metrics: batch_time=1.000s | types=[view:7, add_to_cart:3] | avg_price=$50.28 | elapsed=75.9s
+2026-01-30 08:37:02 | INFO     | DataGenerator | File #78: events_20260130_083702_571577.csv | Events: 10 | Total: 780 | Rate: 10.1 evt/s
+2026-01-30 08:37:02 | INFO     | DataGenerator |   └─ Batch #78 Metrics: batch_time=1.015s | types=[view:7, add_to_cart:1, purchase:2] | avg_price=$55.75 | elapsed=76.9s
+2026-01-30 08:37:03 | INFO     | DataGenerator | File #79: events_20260130_083703_572544.csv | Events: 10 | Total: 790 | Rate: 10.1 evt/s
+2026-01-30 08:37:03 | INFO     | DataGenerator |   └─ Batch #79 Metrics: batch_time=1.002s | types=[view:8, add_to_cart:1, purchase:1] | avg_price=$58.18 | elapsed=77.9s
+2026-01-30 08:37:04 | INFO     | DataGenerator | File #80: events_20260130_083704_573760.csv | Events: 10 | Total: 800 | Rate: 10.1 evt/s
+2026-01-30 08:37:04 | INFO     | DataGenerator |   └─ Batch #80 Metrics: batch_time=0.987s | types=[view:8, add_to_cart:2] | avg_price=$64.94 | elapsed=78.9s
+2026-01-30 08:37:05 | INFO     | DataGenerator | File #81: events_20260130_083705_575614.csv | Events: 10 | Total: 810 | Rate: 10.1 evt/s
+2026-01-30 08:37:05 | INFO     | DataGenerator |   └─ Batch #81 Metrics: batch_time=1.006s | types=[view:5, add_to_cart:3, purchase:2] | avg_price=$51.17 | elapsed=79.9s
+2026-01-30 08:37:06 | INFO     | DataGenerator | File #82: events_20260130_083706_576499.csv | Events: 10 | Total: 820 | Rate: 10.1 evt/s
+2026-01-30 08:37:06 | INFO     | DataGenerator |   └─ Batch #82 Metrics: batch_time=0.986s | types=[view:4, add_to_cart:6] | avg_price=$31.58 | elapsed=80.9s
+2026-01-30 08:37:07 | INFO     | DataGenerator | File #83: events_20260130_083707_578125.csv | Events: 10 | Total: 830 | Rate: 10.1 evt/s
+2026-01-30 08:37:07 | INFO     | DataGenerator |   └─ Batch #83 Metrics: batch_time=0.996s | types=[add_to_cart:4, view:5, purchase:1] | avg_price=$61.42 | elapsed=81.9s
+2026-01-30 08:37:08 | INFO     | DataGenerator | File #84: events_20260130_083708_580939.csv | Events: 10 | Total: 840 | Rate: 10.1 evt/s
+2026-01-30 08:37:08 | INFO     | DataGenerator |   └─ Batch #84 Metrics: batch_time=1.002s | types=[view:4, add_to_cart:6] | avg_price=$65.18 | elapsed=82.9s
+2026-01-30 08:37:09 | INFO     | DataGenerator | File #85: events_20260130_083709_582478.csv | Events: 10 | Total: 850 | Rate: 10.1 evt/s
+2026-01-30 08:37:09 | INFO     | DataGenerator |   └─ Batch #85 Metrics: batch_time=0.997s | types=[view:8, add_to_cart:2] | avg_price=$70.49 | elapsed=83.9s
+2026-01-30 08:37:10 | INFO     | DataGenerator | File #86: events_20260130_083710_584014.csv | Events: 10 | Total: 860 | Rate: 10.1 evt/s
+2026-01-30 08:37:10 | INFO     | DataGenerator |   └─ Batch #86 Metrics: batch_time=0.999s | types=[add_to_cart:5, view:4, purchase:1] | avg_price=$60.10 | elapsed=84.9s
+2026-01-30 08:37:11 | INFO     | DataGenerator | File #87: events_20260130_083711_584506.csv | Events: 10 | Total: 870 | Rate: 10.1 evt/s
+2026-01-30 08:37:11 | INFO     | DataGenerator |   └─ Batch #87 Metrics: batch_time=0.990s | types=[view:5, add_to_cart:5] | avg_price=$49.29 | elapsed=85.9s
+2026-01-30 08:37:12 | INFO     | DataGenerator | File #88: events_20260130_083712_587622.csv | Events: 10 | Total: 880 | Rate: 10.1 evt/s
+2026-01-30 08:37:12 | INFO     | DataGenerator |   └─ Batch #88 Metrics: batch_time=1.001s | types=[view:8, add_to_cart:2] | avg_price=$69.09 | elapsed=86.9s
+2026-01-30 08:37:13 | INFO     | DataGenerator | File #89: events_20260130_083713_586265.csv | Events: 10 | Total: 890 | Rate: 10.1 evt/s
+2026-01-30 08:37:13 | INFO     | DataGenerator |   └─ Batch #89 Metrics: batch_time=1.038s | types=[view:5, add_to_cart:4, purchase:1] | avg_price=$34.40 | elapsed=88.0s
+2026-01-30 08:37:14 | INFO     | DataGenerator | File #90: events_20260130_083714_588564.csv | Events: 10 | Total: 900 | Rate: 10.1 evt/s
+2026-01-30 08:37:14 | INFO     | DataGenerator |   └─ Batch #90 Metrics: batch_time=0.960s | types=[view:5, add_to_cart:4, purchase:1] | avg_price=$54.29 | elapsed=88.9s
+2026-01-30 08:37:15 | INFO     | DataGenerator | File #91: events_20260130_083715_590037.csv | Events: 10 | Total: 910 | Rate: 10.1 evt/s
+2026-01-30 08:37:15 | INFO     | DataGenerator |   └─ Batch #91 Metrics: batch_time=0.999s | types=[view:7, add_to_cart:2, purchase:1] | avg_price=$52.60 | elapsed=89.9s
+2026-01-30 08:37:16 | INFO     | DataGenerator | File #92: events_20260130_083716_591371.csv | Events: 10 | Total: 920 | Rate: 10.1 evt/s
+2026-01-30 08:37:16 | INFO     | DataGenerator |   └─ Batch #92 Metrics: batch_time=1.000s | types=[view:8, add_to_cart:1, purchase:1] | avg_price=$48.20 | elapsed=90.9s
+2026-01-30 08:37:17 | INFO     | DataGenerator | File #93: events_20260130_083717_592841.csv | Events: 10 | Total: 930 | Rate: 10.1 evt/s
+2026-01-30 08:37:17 | INFO     | DataGenerator |   └─ Batch #93 Metrics: batch_time=1.000s | types=[view:5, add_to_cart:4, purchase:1] | avg_price=$49.45 | elapsed=91.9s
+2026-01-30 08:37:18 | INFO     | DataGenerator | File #94: events_20260130_083718_507869.csv | Events: 10 | Total: 940 | Rate: 10.1 evt/s
+2026-01-30 08:37:18 | INFO     | DataGenerator |   └─ Batch #94 Metrics: batch_time=0.901s | types=[view:4, add_to_cart:4, purchase:2] | avg_price=$68.92 | elapsed=92.8s
+2026-01-30 08:37:19 | INFO     | DataGenerator | File #95: events_20260130_083719_507460.csv | Events: 10 | Total: 950 | Rate: 10.1 evt/s
+2026-01-30 08:37:19 | INFO     | DataGenerator |   └─ Batch #95 Metrics: batch_time=0.971s | types=[view:6, add_to_cart:4] | avg_price=$68.94 | elapsed=93.8s
+2026-01-30 08:37:20 | INFO     | DataGenerator | File #96: events_20260130_083720_508339.csv | Events: 10 | Total: 960 | Rate: 10.1 evt/s
+2026-01-30 08:37:20 | INFO     | DataGenerator |   └─ Batch #96 Metrics: batch_time=0.995s | types=[view:8, add_to_cart:2] | avg_price=$48.75 | elapsed=94.8s
+2026-01-30 08:37:21 | INFO     | DataGenerator | File #97: events_20260130_083721_510267.csv | Events: 10 | Total: 970 | Rate: 10.1 evt/s
+2026-01-30 08:37:21 | INFO     | DataGenerator |   └─ Batch #97 Metrics: batch_time=1.007s | types=[add_to_cart:5, view:4, purchase:1] | avg_price=$51.24 | elapsed=95.8s
+2026-01-30 08:37:22 | INFO     | DataGenerator | File #98: events_20260130_083722_510818.csv | Events: 10 | Total: 980 | Rate: 10.1 evt/s
+2026-01-30 08:37:22 | INFO     | DataGenerator |   └─ Batch #98 Metrics: batch_time=0.990s | types=[view:4, add_to_cart:5, purchase:1] | avg_price=$56.05 | elapsed=96.8s
+2026-01-30 08:37:23 | INFO     | DataGenerator | File #99: events_20260130_083723_511977.csv | Events: 10 | Total: 990 | Rate: 10.1 evt/s
+2026-01-30 08:37:23 | INFO     | DataGenerator |   └─ Batch #99 Metrics: batch_time=1.000s | types=[view:4, purchase:1, add_to_cart:5] | avg_price=$45.59 | elapsed=97.8s
+2026-01-30 08:37:24 | INFO     | DataGenerator | File #100: events_20260130_083724_517521.csv | Events: 10 | Total: 1000 | Rate: 10.1 evt/s
+2026-01-30 08:37:24 | INFO     | DataGenerator |   └─ Batch #100 Metrics: batch_time=1.004s | types=[add_to_cart:4, view:6] | avg_price=$38.77 | elapsed=98.8s
+2026-01-30 08:37:25 | INFO     | DataGenerator | File #101: events_20260130_083725_516477.csv | Events: 10 | Total: 1010 | Rate: 10.1 evt/s
+2026-01-30 08:37:25 | INFO     | DataGenerator |   └─ Batch #101 Metrics: batch_time=1.007s | types=[view:6, add_to_cart:3, purchase:1] | avg_price=$42.90 | elapsed=99.9s
+2026-01-30 08:37:26 | INFO     | DataGenerator | File #102: events_20260130_083726_516529.csv | Events: 10 | Total: 1020 | Rate: 10.1 evt/s
+2026-01-30 08:37:26 | INFO     | DataGenerator |   └─ Batch #102 Metrics: batch_time=0.989s | types=[add_to_cart:3, view:6, purchase:1] | avg_price=$47.50 | elapsed=100.8s
+2026-01-30 08:37:27 | INFO     | DataGenerator | File #103: events_20260130_083727_518142.csv | Events: 10 | Total: 1030 | Rate: 10.1 evt/s
+2026-01-30 08:37:27 | INFO     | DataGenerator |   └─ Batch #103 Metrics: batch_time=1.004s | types=[view:5, add_to_cart:4, purchase:1] | avg_price=$63.12 | elapsed=101.9s
+2026-01-30 08:37:28 | INFO     | DataGenerator | File #104: events_20260130_083728_518391.csv | Events: 10 | Total: 1040 | Rate: 10.1 evt/s
+2026-01-30 08:37:28 | INFO     | DataGenerator |   └─ Batch #104 Metrics: batch_time=0.991s | types=[view:8, add_to_cart:2] | avg_price=$90.16 | elapsed=102.8s
+2026-01-30 08:37:29 | INFO     | DataGenerator | File #105: events_20260130_083729_520094.csv | Events: 10 | Total: 1050 | Rate: 10.1 evt/s
+2026-01-30 08:37:29 | INFO     | DataGenerator |   └─ Batch #105 Metrics: batch_time=1.003s | types=[view:5, add_to_cart:4, purchase:1] | avg_price=$58.84 | elapsed=103.9s
+2026-01-30 08:37:30 | INFO     | DataGenerator | File #106: events_20260130_083730_521276.csv | Events: 10 | Total: 1060 | Rate: 10.1 evt/s
+2026-01-30 08:37:30 | INFO     | DataGenerator |   └─ Batch #106 Metrics: batch_time=0.997s | types=[view:7, add_to_cart:3] | avg_price=$41.18 | elapsed=104.9s
+2026-01-30 08:37:31 | INFO     | DataGenerator | File #107: events_20260130_083731_521912.csv | Events: 10 | Total: 1070 | Rate: 10.1 evt/s
+2026-01-30 08:37:31 | INFO     | DataGenerator |   └─ Batch #107 Metrics: batch_time=0.990s | types=[view:7, add_to_cart:2, purchase:1] | avg_price=$53.69 | elapsed=105.8s
+2026-01-30 08:37:32 | INFO     | DataGenerator | File #108: events_20260130_083732_523782.csv | Events: 10 | Total: 1080 | Rate: 10.1 evt/s
+2026-01-30 08:37:32 | INFO     | DataGenerator |   └─ Batch #108 Metrics: batch_time=1.010s | types=[view:7, add_to_cart:2, purchase:1] | avg_price=$53.35 | elapsed=106.9s
+2026-01-30 08:37:33 | INFO     | DataGenerator | File #109: events_20260130_083733_525031.csv | Events: 10 | Total: 1090 | Rate: 10.1 evt/s
+2026-01-30 08:37:33 | INFO     | DataGenerator |   └─ Batch #109 Metrics: batch_time=0.992s | types=[add_to_cart:3, view:6, purchase:1] | avg_price=$47.89 | elapsed=107.9s
+2026-01-30 08:37:34 | INFO     | DataGenerator | File #110: events_20260130_083734_527557.csv | Events: 10 | Total: 1100 | Rate: 10.1 evt/s
+2026-01-30 08:37:34 | INFO     | DataGenerator |   └─ Batch #110 Metrics: batch_time=1.005s | types=[purchase:3, view:3, add_to_cart:4] | avg_price=$67.31 | elapsed=108.9s
+2026-01-30 08:37:35 | INFO     | DataGenerator | File #111: events_20260130_083735_530776.csv | Events: 10 | Total: 1110 | Rate: 10.1 evt/s
+2026-01-30 08:37:35 | INFO     | DataGenerator |   └─ Batch #111 Metrics: batch_time=1.006s | types=[view:6, add_to_cart:2, purchase:2] | avg_price=$65.88 | elapsed=109.9s
+2026-01-30 08:37:36 | INFO     | DataGenerator | File #112: events_20260130_083736_530720.csv | Events: 10 | Total: 1120 | Rate: 10.1 evt/s
+2026-01-30 08:37:36 | INFO     | DataGenerator |   └─ Batch #112 Metrics: batch_time=0.986s | types=[view:6, add_to_cart:4] | avg_price=$60.09 | elapsed=110.9s
+2026-01-30 08:37:37 | INFO     | DataGenerator | File #113: events_20260130_083737_533288.csv | Events: 10 | Total: 1130 | Rate: 10.1 evt/s
+2026-01-30 08:37:37 | INFO     | DataGenerator |   └─ Batch #113 Metrics: batch_time=1.008s | types=[add_to_cart:1, view:9] | avg_price=$71.41 | elapsed=111.9s
+2026-01-30 08:37:38 | INFO     | DataGenerator | File #114: events_20260130_083738_535297.csv | Events: 10 | Total: 1140 | Rate: 10.1 evt/s
+2026-01-30 08:37:38 | INFO     | DataGenerator |   └─ Batch #114 Metrics: batch_time=0.998s | types=[add_to_cart:3, view:6, purchase:1] | avg_price=$44.23 | elapsed=112.9s
+2026-01-30 08:37:39 | INFO     | DataGenerator | File #115: events_20260130_083739_536930.csv | Events: 10 | Total: 1150 | Rate: 10.1 evt/s
+2026-01-30 08:37:39 | INFO     | DataGenerator |   └─ Batch #115 Metrics: batch_time=0.999s | types=[add_to_cart:3, purchase:3, view:4] | avg_price=$75.59 | elapsed=113.9s
+2026-01-30 08:37:40 | INFO     | DataGenerator | File #116: events_20260130_083740_537938.csv | Events: 10 | Total: 1160 | Rate: 10.1 evt/s
+2026-01-30 08:37:40 | INFO     | DataGenerator |   └─ Batch #116 Metrics: batch_time=0.989s | types=[view:7, purchase:2, add_to_cart:1] | avg_price=$51.96 | elapsed=114.9s
+2026-01-30 08:37:41 | INFO     | DataGenerator | File #117: events_20260130_083741_539564.csv | Events: 10 | Total: 1170 | Rate: 10.1 evt/s
+2026-01-30 08:37:41 | INFO     | DataGenerator |   └─ Batch #117 Metrics: batch_time=0.999s | types=[add_to_cart:3, view:6, purchase:1] | avg_price=$43.64 | elapsed=115.9s
+2026-01-30 08:37:42 | INFO     | DataGenerator | File #118: events_20260130_083742_540117.csv | Events: 10 | Total: 1180 | Rate: 10.1 evt/s
+2026-01-30 08:37:42 | INFO     | DataGenerator |   └─ Batch #118 Metrics: batch_time=0.997s | types=[add_to_cart:3, view:6, purchase:1] | avg_price=$43.97 | elapsed=116.9s
+2026-01-30 08:37:43 | INFO     | DataGenerator | File #119: events_20260130_083743_540961.csv | Events: 10 | Total: 1190 | Rate: 10.1 evt/s
+2026-01-30 08:37:43 | INFO     | DataGenerator |   └─ Batch #119 Metrics: batch_time=0.995s | types=[view:7, purchase:1, add_to_cart:2] | avg_price=$64.28 | elapsed=117.9s
+2026-01-30 08:37:44 | INFO     | DataGenerator | File #120: events_20260130_083744_543036.csv | Events: 10 | Total: 1200 | Rate: 10.1 evt/s
+2026-01-30 08:37:44 | INFO     | DataGenerator |   └─ Batch #120 Metrics: batch_time=1.010s | types=[view:4, purchase:1, add_to_cart:5] | avg_price=$54.48 | elapsed=118.9s
+2026-01-30 08:37:45 | INFO     | DataGenerator | File #121: events_20260130_083745_544596.csv | Events: 10 | Total: 1210 | Rate: 10.1 evt/s
+2026-01-30 08:37:45 | INFO     | DataGenerator |   └─ Batch #121 Metrics: batch_time=0.987s | types=[view:7, add_to_cart:3] | avg_price=$56.73 | elapsed=119.9s
+2026-01-30 08:37:46 | INFO     | DataGenerator | File #122: events_20260130_083746_545162.csv | Events: 10 | Total: 1220 | Rate: 10.1 evt/s
+2026-01-30 08:37:46 | INFO     | DataGenerator |   └─ Batch #122 Metrics: batch_time=0.994s | types=[purchase:2, view:8] | avg_price=$38.06 | elapsed=120.9s
+2026-01-30 08:37:47 | INFO     | DataGenerator | File #123: events_20260130_083747_547195.csv | Events: 10 | Total: 1230 | Rate: 10.1 evt/s
+2026-01-30 08:37:47 | INFO     | DataGenerator |   └─ Batch #123 Metrics: batch_time=1.006s | types=[add_to_cart:5, view:4, purchase:1] | avg_price=$53.72 | elapsed=121.9s
+2026-01-30 08:37:48 | INFO     | DataGenerator | File #124: events_20260130_083748_487593.csv | Events: 10 | Total: 1240 | Rate: 10.1 evt/s
+2026-01-30 08:37:48 | INFO     | DataGenerator |   └─ Batch #124 Metrics: batch_time=0.937s | types=[add_to_cart:5, view:4, purchase:1] | avg_price=$49.66 | elapsed=122.8s
+2026-01-30 08:37:49 | INFO     | DataGenerator | File #125: events_20260130_083749_488491.csv | Events: 10 | Total: 1250 | Rate: 10.1 evt/s
+2026-01-30 08:37:49 | INFO     | DataGenerator |   └─ Batch #125 Metrics: batch_time=0.995s | types=[add_to_cart:1, view:9] | avg_price=$75.05 | elapsed=123.8s
+2026-01-30 08:37:50 | INFO     | DataGenerator | File #126: events_20260130_083750_488595.csv | Events: 10 | Total: 1260 | Rate: 10.1 evt/s
+2026-01-30 08:37:50 | INFO     | DataGenerator |   └─ Batch #126 Metrics: batch_time=0.994s | types=[add_to_cart:1, view:9] | avg_price=$39.69 | elapsed=124.8s
+2026-01-30 08:37:51 | INFO     | DataGenerator | File #127: events_20260130_083751_490176.csv | Events: 10 | Total: 1270 | Rate: 10.1 evt/s
+2026-01-30 08:37:51 | INFO     | DataGenerator |   └─ Batch #127 Metrics: batch_time=1.000s | types=[view:8, purchase:2] | avg_price=$61.64 | elapsed=125.8s
+2026-01-30 08:37:52 | INFO     | DataGenerator | File #128: events_20260130_083752_490416.csv | Events: 10 | Total: 1280 | Rate: 10.1 evt/s
+2026-01-30 08:37:52 | INFO     | DataGenerator |   └─ Batch #128 Metrics: batch_time=0.993s | types=[view:5, add_to_cart:4, purchase:1] | avg_price=$49.41 | elapsed=126.8s
+2026-01-30 08:37:53 | INFO     | DataGenerator | File #129: events_20260130_083753_492103.csv | Events: 10 | Total: 1290 | Rate: 10.1 evt/s
+2026-01-30 08:37:53 | INFO     | DataGenerator |   └─ Batch #129 Metrics: batch_time=0.992s | types=[purchase:2, view:5, add_to_cart:3] | avg_price=$71.01 | elapsed=127.8s
+2026-01-30 08:37:54 | INFO     | DataGenerator | File #130: events_20260130_083754_492338.csv | Events: 10 | Total: 1300 | Rate: 10.1 evt/s
+2026-01-30 08:37:54 | INFO     | DataGenerator |   └─ Batch #130 Metrics: batch_time=0.997s | types=[view:7, add_to_cart:3] | avg_price=$50.00 | elapsed=128.8s
+2026-01-30 08:37:55 | INFO     | DataGenerator | File #131: events_20260130_083755_493349.csv | Events: 10 | Total: 1310 | Rate: 10.1 evt/s
+2026-01-30 08:37:55 | INFO     | DataGenerator |   └─ Batch #131 Metrics: batch_time=0.999s | types=[add_to_cart:3, purchase:2, view:5] | avg_price=$53.27 | elapsed=129.8s
+2026-01-30 08:37:56 | INFO     | DataGenerator | File #132: events_20260130_083756_494406.csv | Events: 10 | Total: 1320 | Rate: 10.1 evt/s
+2026-01-30 08:37:56 | INFO     | DataGenerator |   └─ Batch #132 Metrics: batch_time=1.000s | types=[view:3, add_to_cart:6, purchase:1] | avg_price=$50.09 | elapsed=130.8s
+2026-01-30 08:37:57 | INFO     | DataGenerator | File #133: events_20260130_083757_496718.csv | Events: 10 | Total: 1330 | Rate: 10.1 evt/s
+2026-01-30 08:37:57 | INFO     | DataGenerator |   └─ Batch #133 Metrics: batch_time=1.008s | types=[view:8, add_to_cart:1, purchase:1] | avg_price=$77.11 | elapsed=131.8s
+2026-01-30 08:37:58 | INFO     | DataGenerator | File #134: events_20260130_083758_498873.csv | Events: 10 | Total: 1340 | Rate: 10.1 evt/s
+2026-01-30 08:37:58 | INFO     | DataGenerator |   └─ Batch #134 Metrics: batch_time=1.008s | types=[view:6, purchase:2, add_to_cart:2] | avg_price=$64.79 | elapsed=132.8s
+2026-01-30 08:37:59 | INFO     | DataGenerator | File #135: events_20260130_083759_499269.csv | Events: 10 | Total: 1350 | Rate: 10.1 evt/s
+2026-01-30 08:37:59 | INFO     | DataGenerator |   └─ Batch #135 Metrics: batch_time=0.985s | types=[view:8, purchase:1, add_to_cart:1] | avg_price=$40.41 | elapsed=133.8s
+2026-01-30 08:38:00 | INFO     | DataGenerator | File #136: events_20260130_083800_499529.csv | Events: 10 | Total: 1360 | Rate: 10.1 evt/s
+2026-01-30 08:38:00 | INFO     | DataGenerator |   └─ Batch #136 Metrics: batch_time=0.994s | types=[view:6, add_to_cart:3, purchase:1] | avg_price=$43.00 | elapsed=134.8s
+2026-01-30 08:38:01 | INFO     | DataGenerator | File #137: events_20260130_083801_501194.csv | Events: 10 | Total: 1370 | Rate: 10.1 evt/s
+2026-01-30 08:38:01 | INFO     | DataGenerator |   └─ Batch #137 Metrics: batch_time=1.003s | types=[view:7, add_to_cart:2, purchase:1] | avg_price=$51.32 | elapsed=135.8s
+2026-01-30 08:38:02 | INFO     | DataGenerator | File #138: events_20260130_083802_503319.csv | Events: 10 | Total: 1380 | Rate: 10.1 evt/s
+2026-01-30 08:38:02 | INFO     | DataGenerator |   └─ Batch #138 Metrics: batch_time=1.003s | types=[add_to_cart:3, view:6, purchase:1] | avg_price=$60.38 | elapsed=136.8s
+2026-01-30 08:38:03 | INFO     | DataGenerator | File #139: events_20260130_083803_503821.csv | Events: 10 | Total: 1390 | Rate: 10.1 evt/s
+2026-01-30 08:38:03 | INFO     | DataGenerator |   └─ Batch #139 Metrics: batch_time=0.995s | types=[add_to_cart:3, view:7] | avg_price=$40.77 | elapsed=137.8s
+2026-01-30 08:38:04 | INFO     | DataGenerator | File #140: events_20260130_083804_504902.csv | Events: 10 | Total: 1400 | Rate: 10.1 evt/s
+2026-01-30 08:38:04 | INFO     | DataGenerator |   └─ Batch #140 Metrics: batch_time=0.990s | types=[view:9, purchase:1] | avg_price=$57.59 | elapsed=138.8s
+2026-01-30 08:38:05 | INFO     | DataGenerator | File #141: events_20260130_083805_507991.csv | Events: 10 | Total: 1410 | Rate: 10.1 evt/s
+2026-01-30 08:38:05 | INFO     | DataGenerator |   └─ Batch #141 Metrics: batch_time=1.011s | types=[add_to_cart:7, view:3] | avg_price=$59.76 | elapsed=139.8s
+2026-01-30 08:38:06 | INFO     | DataGenerator | File #142: events_20260130_083806_509185.csv | Events: 10 | Total: 1420 | Rate: 10.1 evt/s
+2026-01-30 08:38:06 | INFO     | DataGenerator |   └─ Batch #142 Metrics: batch_time=0.984s | types=[view:8, add_to_cart:1, purchase:1] | avg_price=$71.31 | elapsed=140.8s
+2026-01-30 08:38:07 | INFO     | DataGenerator | File #143: events_20260130_083807_510849.csv | Events: 10 | Total: 1430 | Rate: 10.1 evt/s
+2026-01-30 08:38:07 | INFO     | DataGenerator |   └─ Batch #143 Metrics: batch_time=0.993s | types=[purchase:1, view:6, add_to_cart:3] | avg_price=$51.64 | elapsed=141.8s
+2026-01-30 08:38:08 | INFO     | DataGenerator | File #144: events_20260130_083808_513819.csv | Events: 10 | Total: 1440 | Rate: 10.1 evt/s
+2026-01-30 08:38:08 | INFO     | DataGenerator |   └─ Batch #144 Metrics: batch_time=1.005s | types=[view:5, add_to_cart:5] | avg_price=$98.87 | elapsed=142.8s
+2026-01-30 08:38:09 | INFO     | DataGenerator | File #145: events_20260130_083809_515039.csv | Events: 10 | Total: 1450 | Rate: 10.1 evt/s
+2026-01-30 08:38:09 | INFO     | DataGenerator |   └─ Batch #145 Metrics: batch_time=0.995s | types=[view:5, purchase:4, add_to_cart:1] | avg_price=$43.20 | elapsed=143.8s
+2026-01-30 08:38:10 | INFO     | DataGenerator | File #146: events_20260130_083810_515868.csv | Events: 10 | Total: 1460 | Rate: 10.1 evt/s
+2026-01-30 08:38:10 | INFO     | DataGenerator |   └─ Batch #146 Metrics: batch_time=0.992s | types=[purchase:2, add_to_cart:4, view:4] | avg_price=$68.48 | elapsed=144.8s
+2026-01-30 08:38:11 | INFO     | DataGenerator | File #147: events_20260130_083811_516443.csv | Events: 10 | Total: 1470 | Rate: 10.1 evt/s
+2026-01-30 08:38:11 | INFO     | DataGenerator |   └─ Batch #147 Metrics: batch_time=1.000s | types=[view:4, add_to_cart:6] | avg_price=$63.78 | elapsed=145.8s
+2026-01-30 08:38:12 | INFO     | DataGenerator | File #148: events_20260130_083812_518935.csv | Events: 10 | Total: 1480 | Rate: 10.1 evt/s
+2026-01-30 08:38:12 | INFO     | DataGenerator |   └─ Batch #148 Metrics: batch_time=0.997s | types=[add_to_cart:4, view:5, purchase:1] | avg_price=$54.79 | elapsed=146.8s
+2026-01-30 08:38:13 | INFO     | DataGenerator | File #149: events_20260130_083813_518448.csv | Events: 10 | Total: 1490 | Rate: 10.1 evt/s
+2026-01-30 08:38:13 | INFO     | DataGenerator |   └─ Batch #149 Metrics: batch_time=0.988s | types=[view:8, add_to_cart:2] | avg_price=$60.62 | elapsed=147.8s
+2026-01-30 08:38:14 | INFO     | DataGenerator | File #150: events_20260130_083814_520290.csv | Events: 10 | Total: 1500 | Rate: 10.1 evt/s
+2026-01-30 08:38:14 | INFO     | DataGenerator |   └─ Batch #150 Metrics: batch_time=1.007s | types=[view:6, add_to_cart:3, purchase:1] | avg_price=$61.16 | elapsed=148.9s
+2026-01-30 08:38:15 | INFO     | DataGenerator | File #151: events_20260130_083815_522655.csv | Events: 10 | Total: 1510 | Rate: 10.1 evt/s
+2026-01-30 08:38:15 | INFO     | DataGenerator |   └─ Batch #151 Metrics: batch_time=1.000s | types=[purchase:2, view:6, add_to_cart:2] | avg_price=$76.35 | elapsed=149.9s
+2026-01-30 08:38:16 | INFO     | DataGenerator | File #152: events_20260130_083816_525902.csv | Events: 10 | Total: 1520 | Rate: 10.1 evt/s
+2026-01-30 08:38:16 | INFO     | DataGenerator |   └─ Batch #152 Metrics: batch_time=1.000s | types=[add_to_cart:5, view:5] | avg_price=$54.13 | elapsed=150.9s
+2026-01-30 08:38:17 | INFO     | DataGenerator | File #153: events_20260130_083817_526495.csv | Events: 10 | Total: 1530 | Rate: 10.1 evt/s
+2026-01-30 08:38:17 | INFO     | DataGenerator |   └─ Batch #153 Metrics: batch_time=0.994s | types=[add_to_cart:6, view:3, purchase:1] | avg_price=$59.11 | elapsed=151.9s
+2026-01-30 08:38:18 | INFO     | DataGenerator | File #154: events_20260130_083818_459069.csv | Events: 10 | Total: 1540 | Rate: 10.1 evt/s
+2026-01-30 08:38:18 | INFO     | DataGenerator |   └─ Batch #154 Metrics: batch_time=0.927s | types=[add_to_cart:3, view:7] | avg_price=$24.41 | elapsed=152.8s
+2026-01-30 08:38:19 | INFO     | DataGenerator | File #155: events_20260130_083819_459003.csv | Events: 10 | Total: 1550 | Rate: 10.1 evt/s
+2026-01-30 08:38:19 | INFO     | DataGenerator |   └─ Batch #155 Metrics: batch_time=0.999s | types=[add_to_cart:4, purchase:1, view:5] | avg_price=$66.90 | elapsed=153.8s
+2026-01-30 08:38:20 | INFO     | DataGenerator | File #156: events_20260130_083820_460321.csv | Events: 10 | Total: 1560 | Rate: 10.1 evt/s
+2026-01-30 08:38:20 | INFO     | DataGenerator |   └─ Batch #156 Metrics: batch_time=0.990s | types=[view:7, add_to_cart:3] | avg_price=$41.88 | elapsed=154.8s
+2026-01-30 08:38:21 | INFO     | DataGenerator | File #157: events_20260130_083821_461186.csv | Events: 10 | Total: 1570 | Rate: 10.1 evt/s
+2026-01-30 08:38:21 | INFO     | DataGenerator |   └─ Batch #157 Metrics: batch_time=0.995s | types=[view:7, add_to_cart:2, purchase:1] | avg_price=$65.59 | elapsed=155.8s
+2026-01-30 08:38:22 | INFO     | DataGenerator | File #158: events_20260130_083822_461541.csv | Events: 10 | Total: 1580 | Rate: 10.1 evt/s
+2026-01-30 08:38:22 | INFO     | DataGenerator |   └─ Batch #158 Metrics: batch_time=0.995s | types=[view:7, purchase:1, add_to_cart:2] | avg_price=$70.92 | elapsed=156.8s
+2026-01-30 08:38:23 | INFO     | DataGenerator | File #159: events_20260130_083823_462284.csv | Events: 10 | Total: 1590 | Rate: 10.1 evt/s
+2026-01-30 08:38:23 | INFO     | DataGenerator |   └─ Batch #159 Metrics: batch_time=0.994s | types=[view:6, add_to_cart:3, purchase:1] | avg_price=$56.54 | elapsed=157.8s
+2026-01-30 08:38:24 | INFO     | DataGenerator | File #160: events_20260130_083824_463503.csv | Events: 10 | Total: 1600 | Rate: 10.1 evt/s
+2026-01-30 08:38:24 | INFO     | DataGenerator |   └─ Batch #160 Metrics: batch_time=1.000s | types=[view:4, add_to_cart:4, purchase:2] | avg_price=$49.13 | elapsed=158.8s
+2026-01-30 08:38:25 | INFO     | DataGenerator | File #161: events_20260130_083825_464856.csv | Events: 10 | Total: 1610 | Rate: 10.1 evt/s
+2026-01-30 08:38:25 | INFO     | DataGenerator |   └─ Batch #161 Metrics: batch_time=0.998s | types=[view:2, add_to_cart:6, purchase:2] | avg_price=$71.74 | elapsed=159.8s
+2026-01-30 08:38:26 | INFO     | DataGenerator | File #162: events_20260130_083826_468299.csv | Events: 10 | Total: 1620 | Rate: 10.1 evt/s
+2026-01-30 08:38:26 | INFO     | DataGenerator |   └─ Batch #162 Metrics: batch_time=1.011s | types=[view:8, add_to_cart:1, purchase:1] | avg_price=$64.06 | elapsed=160.8s
+2026-01-30 08:38:27 | INFO     | DataGenerator | File #163: events_20260130_083827_469304.csv | Events: 10 | Total: 1630 | Rate: 10.1 evt/s
+2026-01-30 08:38:27 | INFO     | DataGenerator |   └─ Batch #163 Metrics: batch_time=0.992s | types=[view:6, purchase:1, add_to_cart:3] | avg_price=$41.14 | elapsed=161.8s
+2026-01-30 08:38:28 | INFO     | DataGenerator | File #164: events_20260130_083828_469954.csv | Events: 10 | Total: 1640 | Rate: 10.1 evt/s
+2026-01-30 08:38:28 | INFO     | DataGenerator |   └─ Batch #164 Metrics: batch_time=0.991s | types=[add_to_cart:4, view:6] | avg_price=$78.02 | elapsed=162.8s
+2026-01-30 08:38:29 | INFO     | DataGenerator | File #165: events_20260130_083829_471597.csv | Events: 10 | Total: 1650 | Rate: 10.1 evt/s
+2026-01-30 08:38:29 | INFO     | DataGenerator |   └─ Batch #165 Metrics: batch_time=1.007s | types=[view:7, add_to_cart:3] | avg_price=$60.72 | elapsed=163.8s
+2026-01-30 08:38:30 | INFO     | DataGenerator | File #166: events_20260130_083830_471935.csv | Events: 10 | Total: 1660 | Rate: 10.1 evt/s
+2026-01-30 08:38:30 | INFO     | DataGenerator |   └─ Batch #166 Metrics: batch_time=0.989s | types=[view:6, add_to_cart:4] | avg_price=$72.80 | elapsed=164.8s
+2026-01-30 08:38:31 | INFO     | DataGenerator | File #167: events_20260130_083831_474018.csv | Events: 10 | Total: 1670 | Rate: 10.1 evt/s
+2026-01-30 08:38:31 | INFO     | DataGenerator |   └─ Batch #167 Metrics: batch_time=1.008s | types=[view:4, add_to_cart:5, purchase:1] | avg_price=$66.52 | elapsed=165.8s
+2026-01-30 08:38:32 | INFO     | DataGenerator | File #168: events_20260130_083832_479099.csv | Events: 10 | Total: 1680 | Rate: 10.1 evt/s
+2026-01-30 08:38:32 | INFO     | DataGenerator |   └─ Batch #168 Metrics: batch_time=1.001s | types=[view:4, purchase:1, add_to_cart:5] | avg_price=$72.40 | elapsed=166.8s
+2026-01-30 08:38:33 | INFO     | DataGenerator | File #169: events_20260130_083833_481965.csv | Events: 10 | Total: 1690 | Rate: 10.1 evt/s
+2026-01-30 08:38:33 | INFO     | DataGenerator |   └─ Batch #169 Metrics: batch_time=1.003s | types=[view:9, add_to_cart:1] | avg_price=$71.17 | elapsed=167.8s
+2026-01-30 08:38:34 | INFO     | DataGenerator | File #170: events_20260130_083834_484150.csv | Events: 10 | Total: 1700 | Rate: 10.1 evt/s
+2026-01-30 08:38:34 | INFO     | DataGenerator |   └─ Batch #170 Metrics: batch_time=0.990s | types=[add_to_cart:2, view:8] | avg_price=$77.27 | elapsed=168.8s
+2026-01-30 08:38:35 | INFO     | DataGenerator | File #171: events_20260130_083835_485919.csv | Events: 10 | Total: 1710 | Rate: 10.1 evt/s
+2026-01-30 08:38:35 | INFO     | DataGenerator |   └─ Batch #171 Metrics: batch_time=1.000s | types=[add_to_cart:3, view:7] | avg_price=$43.14 | elapsed=169.8s
+2026-01-30 08:38:36 | INFO     | DataGenerator | File #172: events_20260130_083836_487465.csv | Events: 10 | Total: 1720 | Rate: 10.1 evt/s
+2026-01-30 08:38:36 | INFO     | DataGenerator |   └─ Batch #172 Metrics: batch_time=1.002s | types=[view:7, add_to_cart:2, purchase:1] | avg_price=$56.92 | elapsed=170.8s
+2026-01-30 08:38:37 | INFO     | DataGenerator | File #173: events_20260130_083837_488331.csv | Events: 10 | Total: 1730 | Rate: 10.1 evt/s
+2026-01-30 08:38:37 | INFO     | DataGenerator |   └─ Batch #173 Metrics: batch_time=0.997s | types=[view:7, add_to_cart:3] | avg_price=$65.67 | elapsed=171.8s
+2026-01-30 08:38:38 | INFO     | DataGenerator | File #174: events_20260130_083838_490643.csv | Events: 10 | Total: 1740 | Rate: 10.1 evt/s
+2026-01-30 08:38:38 | INFO     | DataGenerator |   └─ Batch #174 Metrics: batch_time=1.004s | types=[add_to_cart:3, view:7] | avg_price=$46.16 | elapsed=172.8s
+2026-01-30 08:38:39 | INFO     | DataGenerator | File #175: events_20260130_083839_492240.csv | Events: 10 | Total: 1750 | Rate: 10.1 evt/s
+2026-01-30 08:38:39 | INFO     | DataGenerator |   └─ Batch #175 Metrics: batch_time=0.997s | types=[purchase:2, view:5, add_to_cart:3] | avg_price=$44.14 | elapsed=173.8s
+2026-01-30 08:38:40 | INFO     | DataGenerator | File #176: events_20260130_083840_493485.csv | Events: 10 | Total: 1760 | Rate: 10.1 evt/s
+2026-01-30 08:38:40 | INFO     | DataGenerator |   └─ Batch #176 Metrics: batch_time=0.996s | types=[view:3, add_to_cart:5, purchase:2] | avg_price=$73.24 | elapsed=174.8s
+2026-01-30 08:38:41 | INFO     | DataGenerator | File #177: events_20260130_083841_493900.csv | Events: 10 | Total: 1770 | Rate: 10.1 evt/s
+2026-01-30 08:38:41 | INFO     | DataGenerator |   └─ Batch #177 Metrics: batch_time=0.996s | types=[view:5, add_to_cart:4, purchase:1] | avg_price=$75.41 | elapsed=175.8s
+2026-01-30 08:38:42 | INFO     | DataGenerator | File #178: events_20260130_083842_494553.csv | Events: 10 | Total: 1780 | Rate: 10.1 evt/s
+2026-01-30 08:38:42 | INFO     | DataGenerator |   └─ Batch #178 Metrics: batch_time=0.994s | types=[view:7, add_to_cart:3] | avg_price=$46.14 | elapsed=176.8s
+2026-01-30 08:38:43 | INFO     | DataGenerator | File #179: events_20260130_083843_495885.csv | Events: 10 | Total: 1790 | Rate: 10.1 evt/s
+2026-01-30 08:38:43 | INFO     | DataGenerator |   └─ Batch #179 Metrics: batch_time=0.997s | types=[view:8, add_to_cart:1, purchase:1] | avg_price=$52.12 | elapsed=177.8s
+2026-01-30 08:38:44 | INFO     | DataGenerator | File #180: events_20260130_083844_497580.csv | Events: 10 | Total: 1800 | Rate: 10.1 evt/s
+2026-01-30 08:38:44 | INFO     | DataGenerator |   └─ Batch #180 Metrics: batch_time=0.999s | types=[view:3, add_to_cart:4, purchase:3] | avg_price=$55.33 | elapsed=178.8s
+2026-01-30 08:38:45 | INFO     | DataGenerator | File #181: events_20260130_083845_499358.csv | Events: 10 | Total: 1810 | Rate: 10.1 evt/s
+2026-01-30 08:38:45 | INFO     | DataGenerator |   └─ Batch #181 Metrics: batch_time=1.005s | types=[view:5, add_to_cart:4, purchase:1] | avg_price=$61.68 | elapsed=179.8s
+2026-01-30 08:38:46 | INFO     | DataGenerator | File #182: events_20260130_083846_502147.csv | Events: 10 | Total: 1820 | Rate: 10.1 evt/s
+2026-01-30 08:38:46 | INFO     | DataGenerator |   └─ Batch #182 Metrics: batch_time=1.006s | types=[add_to_cart:6, view:4] | avg_price=$62.14 | elapsed=180.8s
+2026-01-30 08:38:47 | INFO     | DataGenerator | File #183: events_20260130_083847_502357.csv | Events: 10 | Total: 1830 | Rate: 10.1 evt/s
+2026-01-30 08:38:47 | INFO     | DataGenerator |   └─ Batch #183 Metrics: batch_time=0.999s | types=[view:2, add_to_cart:6, purchase:2] | avg_price=$43.86 | elapsed=181.8s
+2026-01-30 08:38:48 | INFO     | DataGenerator | File #184: events_20260130_083848_399986.csv | Events: 10 | Total: 1840 | Rate: 10.1 evt/s
+2026-01-30 08:38:48 | INFO     | DataGenerator |   └─ Batch #184 Metrics: batch_time=0.889s | types=[view:5, add_to_cart:5] | avg_price=$71.05 | elapsed=182.7s
+2026-01-30 08:38:49 | INFO     | DataGenerator | File #185: events_20260130_083849_401147.csv | Events: 10 | Total: 1850 | Rate: 10.1 evt/s
+2026-01-30 08:38:49 | INFO     | DataGenerator |   └─ Batch #185 Metrics: batch_time=0.997s | types=[view:8, purchase:1, add_to_cart:1] | avg_price=$52.51 | elapsed=183.7s
+2026-01-30 08:38:50 | INFO     | DataGenerator | File #186: events_20260130_083850_401473.csv | Events: 10 | Total: 1860 | Rate: 10.1 evt/s
+2026-01-30 08:38:50 | INFO     | DataGenerator |   └─ Batch #186 Metrics: batch_time=0.991s | types=[view:6, add_to_cart:3, purchase:1] | avg_price=$69.46 | elapsed=184.7s
+2026-01-30 08:38:51 | INFO     | DataGenerator | Shutdown signal received. Finishing current batch...
+2026-01-30 08:38:51 | INFO     | DataGenerator | File #187: events_20260130_083851_400930.csv | Events: 1 | Total: 1861 | Rate: 10.0 evt/s
+2026-01-30 08:38:51 | INFO     | DataGenerator |   └─ Batch #187 Metrics: batch_time=0.995s | types=[view:1] | avg_price=$27.34 | elapsed=185.7s
+2026-01-30 08:38:51 | INFO     | DataGenerator | 
+2026-01-30 08:38:51 | INFO     | DataGenerator | ============================================================
+2026-01-30 08:38:51 | INFO     | DataGenerator | Generator Stopped - Summary
+2026-01-30 08:38:51 | INFO     | DataGenerator | ============================================================
+2026-01-30 08:38:51 | INFO     | DataGenerator | Total events generated: 1861
+2026-01-30 08:38:51 | INFO     | DataGenerator | Total files created: 187
+2026-01-30 08:38:51 | INFO     | DataGenerator | Elapsed time: 185.7 seconds
+2026-01-30 08:38:51 | INFO     | DataGenerator | Average rate: 10.0 events/second
+2026-01-30 08:38:51 | INFO     | DataGenerator | ============================================================

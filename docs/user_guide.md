@@ -56,7 +56,7 @@ spark_app            Up                  0.0.0.0:4040->4040/tcp, 0.0.0.0:8080->8
 ### Step 4: Start the Spark Streaming Job
 
 ```powershell
-docker compose exec spark spark-submit /app/src/spark_streaming_to_postgres.py
+docker compose exec spark spark-submit //app/src/spark_streaming_to_postgres.py
 ```
 
 You'll see:
@@ -66,14 +66,14 @@ Waiting for PostgreSQL...
 PostgreSQL connection successful!
 Streaming query started. Waiting for data...
 ```
-
+~
 ### Step 5: Generate Events (New Terminal)
 
 Open a **new terminal** and start the data generator:
 
 ```powershell
 cd "c:\Users\EvansAnkomah\Downloads\py\Real-Time Data Ingestion Using Spark Streaming"
-docker compose exec spark python3 /app/src/data_generator.py --events-per-second 10
+docker compose exec spark python3 //app/src/data_generator.py --events-per-second 10
 ```
 
 You'll see events being generated with detailed metrics:
@@ -101,12 +101,12 @@ You should see the count increasing as events are processed!
 
 Generate more events per second:
 ```powershell
-docker compose exec spark python3 /app/src/data_generator.py --events-per-second 50
+docker compose exec spark python3 //app/src/data_generator.py --events-per-second 50
 ```
 
 Generate for a specific duration (e.g., 60 seconds):
 ```powershell
-docker compose exec spark python3 /app/src/data_generator.py --events-per-second 10 --duration 60
+docker compose exec spark python3 //app/src/data_generator.py --events-per-second 10 --duration 60
 ```
 
 ### Monitoring Spark UI
@@ -220,7 +220,7 @@ The pipeline is designed to recover from crashes:
 
 Simply restart the streaming job:
 ```powershell
-docker compose exec spark spark-submit /app/src/spark_streaming_to_postgres.py
+docker compose exec spark spark-submit //app/src/spark_streaming_to_postgres.py
 ```
 
 ---
@@ -260,7 +260,7 @@ docker compose exec postgres pg_isready -U postgres
 | Check status | `docker compose ps` |
 | Enter Postgres | `docker compose exec postgres psql -U postgres -d ecommerce_events` |
 | Enter Spark container | `docker compose exec spark bash` |
-| Run streaming job | `docker compose exec spark spark-submit /app/src/spark_streaming_to_postgres.py` |
-| Generate events | `docker compose exec spark python3 /app/src/data_generator.py --events-per-second 10` |
+| Run streaming job | `docker compose exec spark spark-submit //app/src/spark_streaming_to_postgres.py` |
+| Generate events | `docker compose exec spark python3 //app/src/data_generator.py --events-per-second 10` |
 | View generator logs | `Get-Content logs\generator_metrics.log -Tail 20` |
 | View streaming logs | `Get-Content logs\streaming_metrics.log -Tail 20` |

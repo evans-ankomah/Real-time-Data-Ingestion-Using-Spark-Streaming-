@@ -1,0 +1,11 @@
+event_id,user_id,product_id,product_name,category,price,event_type,timestamp
+a05a77ab-8565-4622-b489-15e63e6ae7c7,user_c9bdbe60,prod_3164a58c,Dumbbell Set,Sports,80.21,view,2026-01-30 08:38:50
+c9a81c87-c1ba-49b9-8356-323fca77325a,user_49df00b4,prod_7ef7f7c0,Portable Charger,Electronics,31.11,view,2026-01-30 08:38:50
+3766f0a9-f4a8-4493-a4e6-fd6790ce6b4f,user_521265a6,prod_47ce0ae0,Wall Clock,Home & Garden,42.25,add_to_cart,2026-01-30 08:38:50
+7f71cd2c-b2c8-4fd3-a824-baefd8256e9b,user_f38fa1f5,prod_78309095,Laptop Stand,Electronics,63.51,view,2026-01-30 08:38:50
+5a812510-d7b2-4262-bd7b-33008de82469,user_817435d2,prod_ebfd2494,LED Desk Lamp,Home & Garden,26.25,view,2026-01-30 08:38:50
+e7fe7d06-b1db-47d4-a8ca-ae0d8ac80a82,user_5211fe6e,prod_39041ab5,Throw Blanket,Home & Garden,53.53,purchase,2026-01-30 08:38:50
+b42cf94e-73c8-4feb-b7d4-6af87dd3d132,user_433a7d74,prod_734f46d8,Data Science Handbook,Books,52.75,add_to_cart,2026-01-30 08:38:50
+a1bdf7aa-3d27-4b31-88b9-60604b1cbc8f,user_846549ac,prod_01e84bfa,Coffee Maker,Home & Garden,136.84,view,2026-01-30 08:38:50
+8ae8ed47-9562-4fb0-bb33-adc9e4cbf3a1,user_96310271,prod_3e1fb1c8,Winter Jacket,Clothing,188.71,add_to_cart,2026-01-30 08:38:50
+3df892f0-79b6-48d8-bc0b-b31bbd44d297,user_b91ecae0,prod_b171daaf,Self-Help Guide,Books,19.47,view,2026-01-30 08:38:50

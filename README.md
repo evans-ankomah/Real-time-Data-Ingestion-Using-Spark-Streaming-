@@ -54,12 +54,12 @@ The pipeline consists of three main stages: Data Generation, Stream Processing, 
 
    a. **Start Spark Streaming Job**:
    ```bash
-   docker compose exec spark spark-submit /app/src/spark_streaming_to_postgres.py
+   docker compose exec spark spark-submit //app/src/spark_streaming_to_postgres.py
    ```
 
    b. **Start Data Generator** (in a new terminal):
    ```bash
-   docker compose exec spark python3 /app/src/data_generator.py --events-per-second 10 --duration 60
+   docker compose exec spark python3 //app/src/data_generator.py --events-per-second 10 --duration 60
    ```
 
 4. **Verify Data in PostgreSQL**:

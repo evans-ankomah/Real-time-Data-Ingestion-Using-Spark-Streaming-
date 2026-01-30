@@ -20,7 +20,7 @@ Before running tests, ensure:
 **Steps**:
 1. Start the generator for 10 seconds:
    ```powershell
-   docker compose exec spark python3 /app/src/data_generator.py --events-per-second 5 --duration 10
+   docker compose exec spark python3 //app/src/data_generator.py --events-per-second 5 --duration 10
    ```
 2. List generated files:
    ```powershell
@@ -45,7 +45,7 @@ Before running tests, ensure:
 **Steps**:
 1. Start the streaming job:
    ```powershell
-   docker compose exec spark spark-submit /app/src/spark_streaming_to_postgres.py
+   docker compose exec spark spark-submit //app/src/spark_streaming_to_postgres.py
    ```
 
 **Expected Result**:
@@ -67,7 +67,7 @@ Before running tests, ensure:
 1. Start streaming job (Terminal 1)
 2. Start generator for 30 seconds (Terminal 2):
    ```powershell
-   docker compose exec spark python3 /app/src/data_generator.py --events-per-second 10 --duration 30
+   docker compose exec spark python3 //app/src/data_generator.py --events-per-second 10 --duration 30
    ```
 3. Wait 30 seconds
 4. Query PostgreSQL:
@@ -190,7 +190,7 @@ Before running tests, ensure:
 1. Start streaming job
 2. Generate high-volume events:
    ```powershell
-   docker compose exec spark python3 /app/src/data_generator.py --events-per-second 100 --duration 60
+   docker compose exec spark python3 //app/src/data_generator.py --events-per-second 100 --duration 60
    ```
 3. Monitor Spark UI at http://localhost:4040
 4. Query final count
